@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
+title: About Us
 permalink: /about/
 ---
 
-# The largest international chapter of GirlScript based in Ireland!
+<p>The largest international chapter of GirlScript based in Ireland!</p>
