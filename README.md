@@ -18,6 +18,20 @@ We've opened this repository for Hactoberfest contributions. Write a blog and ma
 * The technical information or the content you research and gather has to be shaped for reader interest, understanding, and perception.
 * The content submitted should be verified from a professional software (eg, Grammarly) to ensure your blogs are easy to read and are free of errors.
 
+### Steps
+* Fork this repository
+* Go to the `_posts` folder of your fork.
+* Click on *Add file* on the top-left.
+* Name the file as `YYYY-MM-DD-*.md`. Eg. `2020-01-28-My-First-Post.md`
+* Write your blog in `.md` format.
+* Make a Pull Request.
+
+We understand that you might not be aware of `.md`. In this scenario if you can use `.html`, use that in your `.md` file, else:
+
+* Start with heading written as `# Heading` i.e. followed by a hash symbol.
+* Write your entire blog after that.
+* Separate paragraphs with `<br/>`.
+
 ### Format
 
 <strong>Author name</strong>: < Full-Name > <br/>
