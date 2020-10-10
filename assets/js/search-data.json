@@ -1,22 +1,11 @@
 {
   
-    
-        "post0": {
-            "title": "Demo",
-            "content": "Author name: Priyanshi Sharma Author Country name : India Brief Experience History : Web Developer at GIrlscript Ireland Blog Content : . Heading . Add your content here .",
-            "url": "https://girlscript-ireland.github.io/blog/2020/10/10/Demo.html",
-            "relUrl": "/2020/10/10/Demo.html",
-            "date": " • Oct 10, 2020"
-        }
-        
-    
-  
 
   
   
 
   
-      ,"page1": {
+      "page1": {
           "title": "About Us",
           "content": "The largest international chapter of GirlScript based in Ireland! .",
           "url": "https://girlscript-ireland.github.io/blog/about/",
