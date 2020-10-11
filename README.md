@@ -10,7 +10,7 @@
 We've opened this repository for Hactoberfest contributions. Write a blog and make a PR!
 ***The people with stunning entries will have a chance to be a part of the Girlscript Ireland team!***
 
-### Rules: 
+### Contributing Guidelines: 
 * The blogs should be restricted to only technical domains. 
 * The content of the blog should not only be restricted with or without a dataset. 
 * Research can be done from On-Site Data, Online and Intranet Publications, Interviews, Libraries and Research Databases but the content should not be plagiarized. 
