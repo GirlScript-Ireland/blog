@@ -85,9 +85,9 @@ Every Webpage can be broken down into a mathematical tree structure called the D
 
 Nodes have properties, methods, and events. Methods here means functions and events refer to various happenings like hover over a link, clicking a button, etc. The Page content of the website is represented by DOM. (Scripting Language) JavaScript uses DOM to interact with the document. Accessing the DOM is done with an API (Application Programming Interface). API is browser-independent.
 
-•	Document - It is the root of the page
-•	Element - A node in the tree
-•	nodelist - An array or group of elements
-•	attribute - A node in DOM though rarely used that way. It provides another way to manipulate or change the document.
+•	Document - It is the root of the page<br>
+•	Element - A node in the tree<br>
+•	nodelist - An array or group of elements<br>
+•	attribute - A node in DOM though rarely used that way. It provides another way to manipulate or change the document.<br>
 Before closing on this topic and moving to the next module let’s talk about Interactivity and how JavaScript does that in our Website. So, HTML5 and CSS3 are not interactive. JavaScript can read and write HTML elements, react/respond to events, validate data, detect visitors, and create cookies.
 
