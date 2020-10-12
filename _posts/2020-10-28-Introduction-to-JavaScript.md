@@ -100,6 +100,8 @@ Before moving further let’s have a look at something that almost everyone know
 So, as you can see here through this diagram it’s clear how 
 the web documents are associated with each other.
 
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/HTML_CSS_JS.PNG)
+
 <h3>ECMAScript</h3>
 In the earlier days, there were a lot of scripting languages that were coming up and by scripting languages, we are not referring to bash-trial or Pearl. In this entire scripting world, languages like ActionScript, JavaScript, Jscript, Gscript, and a whole bunch of other languages keep on coming and they were competing with each other. For all the browsers it was getting hard to support all of them, so the European Union (European Computer Manufacturing Association) came into the picture, and then ECMAscript came into the picture. They tried to unify things as one so that things can be done and brought together efficiently, they brought out a set of rules, instructions, and guidelines and this gave rise to ECMAscript. JavaScript is one of the languages which follows the ECMAscript guidelines. The major change came into the picture from ES5 and ES6 onwards. ES6 came into the year 2015 and ES8 in 2018. You might be thinking of working with ES10 or probably even the latest ones. It’s not a great idea to directly jump to ES10 because they are all majorly backward compatible, but the latest browsers supporting there features not possible. So, we will be going through the basic/general version of JavaScript which is even before ES6 and then we will move forward into the features which are available in ES7, ES10.
 
