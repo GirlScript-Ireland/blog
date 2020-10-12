@@ -53,6 +53,9 @@ So, let’s start now:
 ```
 8. Go to the file and Open it with Web Browser and you will see Hello World written in big headings over there, but there’s nothing to do with Js as the script.js file is empty.
 9. Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.
+
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js2.PNG)
+
 10. Now once you are done with this part, go to script.js over VS Code.
 11. In the script.js in VS Code write the following line as shown and save it:
 
