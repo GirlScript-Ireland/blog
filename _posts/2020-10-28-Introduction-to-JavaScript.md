@@ -135,4 +135,15 @@ const uid = “abc123”; // Nowhere in this case the value of uid can never be 
 
 i.e. it says ok uid is the variable name with some space assigned in memory, you can use it for processing but you can’t change the value in uid.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js5.PNG)
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js6.PNG)
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js7.PNG)
+
+So, in the above example we are trying to show you how we can write data into the console, and the use of ‘var’. ‘const’ is pretty much similar to ‘var’ the only difference is its value cannot be changed throughout the program.
+
+Another alternative technique for printing the same is as follows:
+
+
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js8.PNG)
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js9.PNG)
+
+This makes writing over the console task a whole lot easier.
