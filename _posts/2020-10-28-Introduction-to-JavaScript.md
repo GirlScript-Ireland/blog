@@ -77,7 +77,7 @@ Spider Monkey is Mozilla’s JavaScript engine written in C and C++. It is used 
 
 There is no shortage for such JS engines, just like C++ for which we have no. of compilers out there. Things like Node.js are one such implementation that converts your standalone JavaScript code so that we always don’t have to attach our JavaScript to HTML and hit a reload every time. That’s painful that’s why we are not doing it.
 
-<h2>DOM (Document Object Model)<h2>
+<h2>DOM (Document Object Model)</h2>
 
 Now let’s have a bit of knowledge about the DOM Structure of Web Document. JavaScript in addition to getting data from the browser also allows you to manipulate DOM that browsers use to create Web pages.
 
