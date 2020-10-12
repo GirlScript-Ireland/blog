@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://girlscript-ireland.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://girlscript-ireland.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-12T04:17:17-05:00</updated><id>https://girlscript-ireland.github.io/blog/feed.xml</id><title type="html">GirlScript Ireland Blog</title><subtitle>The official blog for GirlScript Ireland</subtitle><entry><title type="html">Introduction To Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html" rel="alternate" type="text/html" title="Introduction To Javascript" /><published>2020-10-12T00:00:00-05:00</published><updated>2020-10-12T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">&lt;div class=&quot;text-white bg-blue mb-2&quot;&gt;&lt;h1&gt;Introduction to JavaScript&lt;/h1&gt;&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://girlscript-ireland.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://girlscript-ireland.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-10-12T13:51:22-05:00</updated><id>https://girlscript-ireland.github.io/blog/feed.xml</id><title type="html">GirlScript Ireland Blog</title><subtitle>The official blog for GirlScript Ireland</subtitle><entry><title type="html">Introduction To Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html" rel="alternate" type="text/html" title="Introduction To Javascript" /><published>2020-10-12T00:00:00-05:00</published><updated>2020-10-12T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">&lt;div class=&quot;text-white bg-blue mb-2&quot;&gt;&lt;h1&gt;Introduction to JavaScript&lt;/h1&gt;&lt;/div&gt;
 &lt;p&gt;Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging. We will wrap up all the concepts related to JavaScript in these modules&lt;/p&gt;
 
 &lt;p&gt;JavaScript is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project), the Mozilla Foundation, and the Mozilla Corporation. JavaScript is versatile and beginner-friendly. With more experience, you’ll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more. JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort.&lt;/p&gt;
@@ -56,7 +56,7 @@ Just 10 minutes of daily walk through each module, you can be a JavaScript exper
   &lt;li&gt;Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js1.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/js1.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Now once you are done with this part, go to script.js over VS Code.&lt;/li&gt;
@@ -72,7 +72,7 @@ Just 10 minutes of daily walk through each module, you can be a JavaScript exper
 
 &lt;p&gt;Yeah! It’s fine, all clear 100% there’s no problem with it. But this is not the only way to run the JavaScript and we need to know why this is all happening and how can I run the same code in a bit advanced manner??&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js2.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/js2.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So First of all, we need to understand JavaScript is just like other languages like C++, Java, or Python. It needs a certain thing, tool or set of software so that this JavaScript language can be converted into Machine-Level Language and that’s the most foundation of running the JavaScript and since the very history long we have always seen that the JavaScript comes with a compiler that converts JS code into executable code. Nobody bothers that there’s a compiler running our code. The fact is this engine was already having compilers and people think that they can be run only over browsers. Some of the JavaScript Engines namely are ‘V8’ and ‘Spider Monkey’.&lt;/p&gt;
 
@@ -105,7 +105,7 @@ Just 10 minutes of daily walk through each module, you can be a JavaScript exper
 &lt;p&gt;So, as you can see here through this diagram it’s clear how 
 the web documents are associated with each other.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/HTML_CSS_JS.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/HTML_CSS_JS.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;ECMAScript&lt;/h3&gt;
 &lt;p&gt;In the earlier days, there were a lot of scripting languages that were coming up and by scripting languages, we are not referring to bash-trial or Pearl. In this entire scripting world, languages like ActionScript, JavaScript, Jscript, Gscript, and a whole bunch of other languages keep on coming and they were competing with each other. For all the browsers it was getting hard to support all of them, so the European Union (European Computer Manufacturing Association) came into the picture, and then ECMAscript came into the picture. They tried to unify things as one so that things can be done and brought together efficiently, they brought out a set of rules, instructions, and guidelines and this gave rise to ECMAscript. JavaScript is one of the languages which follows the ECMAscript guidelines. The major change came into the picture from ES5 and ES6 onwards. ES6 came into the year 2015 and ES8 in 2018. You might be thinking of working with ES10 or probably even the latest ones. It’s not a great idea to directly jump to ES10 because they are all majorly backward compatible, but the latest browsers supporting there features not possible. So, we will be going through the basic/general version of JavaScript which is even before ES6 and then we will move forward into the features which are available in ES7, ES10.&lt;/p&gt;
@@ -117,8 +117,8 @@ the web documents are associated with each other.&lt;/p&gt;
 
 &lt;p&gt;Thus, if you are someone who has worked on some other programming language, note for you guys that in Js there is no such difference in technique of variable declaration for decimal, integer, boolean, and string. For most of the cases, we have discussed and pretty much sure you might have understood the concept. So, as in the case, there are many data types in JavaScript and for that, you need to explore the internet knowing about all of them. During the discussion about Variable’s there’s an assignment so if you did it than superb and you might be surprised to see “undefined” rather than getting an error or something like that, it’s like a NULL value telling that till now the memory is allocated to the variable but no value has been assigned to the variable.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js4.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js5.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/js4.PNG&quot; alt=&quot;Alt&quot; /&gt;
+&lt;img src=&quot;/assets/Js_Tutorial_Images/js5.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Code:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-Javascript&quot;&gt;var name = &quot;Aman&quot;; //We can store string in here
@@ -136,15 +136,15 @@ console.long(bool);
 
 &lt;p&gt;i.e. it says ok uid is the variable name with some space assigned in memory, you can use it for processing but you can’t change the value in uid.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js6.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js7.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/js6.PNG&quot; alt=&quot;Alt&quot; /&gt;
+&lt;img src=&quot;/assets/Js_Tutorial_Images/js7.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So, in the above example we are trying to show you how we can write data into the console, and the use of ‘var’. ‘const’ is pretty much similar to ‘var’ the only difference is its value cannot be changed throughout the program.&lt;/p&gt;
 
 &lt;p&gt;Another alternative technique for printing the same is as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js8.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js9.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/js8.PNG&quot; alt=&quot;Alt&quot; /&gt;
+&lt;img src=&quot;/assets/Js_Tutorial_Images/js9.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This makes writing over the console task a whole lot easier.&lt;/p&gt;
 
@@ -162,8 +162,8 @@ console.long(bool);
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js10.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js11.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Js_Tutorial_Images/js10.PNG&quot; alt=&quot;Alt&quot; /&gt;
+&lt;img src=&quot;/assets/Js_Tutorial_Images/js11.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;
 Authour name:&lt;i&gt; Aman Kumar Dewangan(AkD)&lt;/i&gt;&lt;br /&gt;
