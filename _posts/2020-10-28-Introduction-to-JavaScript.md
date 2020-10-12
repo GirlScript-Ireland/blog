@@ -1,4 +1,4 @@
-## Introduction to JavaScript
+<h1>Introduction to JavaScript</h1>
 
 Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging.
 
