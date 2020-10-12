@@ -147,3 +147,10 @@ Another alternative technique for printing the same is as follows:
 ![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js9.PNG)
 
 This makes writing over the console task a whole lot easier.
+
+<h2>Operators</h2>
+
+Operators are tokens that trigger some computation when applied to objects and variables in an expression. Operators are none other than the basic mathematical operations that we perform on numbers example +, -, *, /, %, (AND)&&, (OR)||, (Bitwise AND)&, (Bitwise OR)|, >, <, >=, <=, (equal)==, (assignment)=, (Bitwise OR assignment)|=, (Bitwise XOR)^, ++a or a++(increment), --a or a--(decrement), **(exponentiation) etc. You can study them all from documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js10.PNG)
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js11.PNG)
