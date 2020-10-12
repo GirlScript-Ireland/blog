@@ -27,7 +27,7 @@ So, let’s start now:
 2.	Fire up (Open) the VS (Visual Studio) Code.
 3.	Drag and drop the ‘hello’ folder over VS Code if you are still following what’s mentioned.
 4.	Now the classic way since the ages that have been continuously followed is creating the 2 files namely:
-5. Within index.html write the following code:
+5. 	Within index.html write the following code:
 
 (1) index.html (2) script.js 
 
@@ -44,4 +44,22 @@ So, let’s start now:
    </body>
    </html>
 ```
+6. It's completely Ok to have the script.js file empty
+7. Now add these two lines in betwwen the opening and closing tags of the body.	
 
+```HTML
+   <script src = ”script.js”></script>
+   <h1> Hello World</h1>
+```
+8. Go to the file and Open it with Web Browser and you will see Hello World written in big headings over there, but there’s nothing to do with Js as the script.js file is empty.
+9. Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.
+10. Now once you are done with this part, go to script.js over VS Code.
+11. In the script.js in VS Code write the following line as shown and save it:
+
+```JavaScript
+console.log("Hello JavaScript");
+```
+13. As soon as you save it and reload the page by clicking on the reload button, over the console we see “Hello JavaScript” written over there. This is the proof we can load up our JavaScript in the HTML file.
+14. This brings us to a very important question,” Is it the right way to run the JavaScript Code??”
+
+Yeah! It’s fine, all clear 100% there’s no problem with it. But this is not the only way to run the JavaScript and we need to know why this is all happening and how can I run the same code in a bit advanced manner??
