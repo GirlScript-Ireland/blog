@@ -154,3 +154,10 @@ Operators are tokens that trigger some computation when applied to objects and v
 
 ![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js10.PNG)
 ![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js11.PNG)
+
+<b>
+Authour name:<i> Aman Kumar Dewangan(AkD)</i>
+Authour's Country: <i>India</i>
+Brief Experience History: <i>My name is Aman Kumar Dewangan, currently pursuin my B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am also a Frontend Developer and beginner into Cloud Engineering. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i>
+Blog Content: <i>The Blog is for those who are beginners into Web Development and have already learnt HTML and CSS and wish to learn Javascript in order to make there website more responsive.</i>
+</b>
