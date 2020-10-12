@@ -15,3 +15,33 @@ Just 10 minutes of daily walk through each module, you can be a JavaScript exper
 Though we have tried to cover almost everything as a programmer it’s your responsibility as well to keep looking on to the original documentation of these languages over the internet for better knowledge.
 
 Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+<h2>What are JavaScript Engines??<h2>
+  
+Actually, before writing code in JavaScript, you need to know where we are gonna write and run our code and probably, you might be excited about that, so hold on for a moment first let’s move through the software needs first. 
+
+So, for writing the code we will be using VS Code (Visual Studio Code), which is the favorite of most people and gaining a whole lot of popularity. There are a lot of themes and plugins that we can install. Though you can also use codepen.io (Brackets.io – offline version) or sublime for the same purpose no issues.
+
+So, let’s start now:
+1.	So, create a folder probably with name ‘Js’ and within it create another folder name ‘hello’, feel free to name it however you like.
+2.	Fire up (Open) the VS (Visual Studio) Code.
+3.	Drag and drop the ‘hello’ folder over VS Code if you are still following what’s mentioned.
+4.	Now the classic way since the ages that have been continuously followed is creating the 2 files namely:
+5. Within index.html write the following code:
+
+(1) index.html (2) script.js 
+
+
+```HTML
+   <!doctype html>
+   <html lang=’en’>
+   <head>
+	  <meta charset=”UTF-8”>
+	  <title>Document</title>
+   </head>
+   <body>
+   Some content is to be added here, wait hold on.
+   </body>
+   </html>
+```
+
