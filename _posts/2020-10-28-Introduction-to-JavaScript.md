@@ -54,7 +54,7 @@ So, let’s start now:
 8. Go to the file and Open it with Web Browser and you will see Hello World written in big headings over there, but there’s nothing to do with Js as the script.js file is empty.
 9. Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js2.PNG)
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js1.PNG)
 
 10. Now once you are done with this part, go to script.js over VS Code.
 11. In the script.js in VS Code write the following line as shown and save it:
@@ -70,3 +70,24 @@ Yeah! It’s fine, all clear 100% there’s no problem with it. But this is not 
 ![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js2.PNG)
 
 So First of all, we need to understand JavaScript is just like other languages like C++, Java, or Python. It needs a certain thing, tool or set of software so that this JavaScript language can be converted into Machine-Level Language and that’s the most foundation of running the JavaScript and since the very history long we have always seen that the JavaScript comes with a compiler that converts JS code into executable code. Nobody bothers that there’s a compiler running our code. The fact is this engine was already having compilers and people think that they can be run only over browsers. Some of the JavaScript Engines namely are ‘V8’ and ‘Spider Monkey’.
+
+V8 is Google’s Open Source High-Performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and Node.js among others. It implements ECMAScript and WebAssembly and runs on Windows 7 or later, macOS 10.12+, and Linux system that uses x64, IA-32, ARM, or MIPS processors. V8 can run standalone or can be embedded into any C++ application.
+
+Spider Monkey is Mozilla’s JavaScript engine written in C and C++. It is used in various Mozilla Products, including Firefox, and is available under the MPL2. 
+
+There is no shortage for such JS engines, just like C++ for which we have no. of compilers out there. Things like Node.js are one such implementation that converts your standalone JavaScript code so that we always don’t have to attach our JavaScript to HTML and hit a reload every time. That’s painful that’s why we are not doing it.
+
+<h2>DOM (Document Object Model)<h2>
+
+Now let’s have a bit of knowledge about the DOM Structure of Web Document. JavaScript in addition to getting data from the browser also allows you to manipulate DOM that browsers use to create Web pages.
+
+Every Webpage can be broken down into a mathematical tree structure called the Document Object Model (DOM). Each HTML tag is a node in the tree and these nodes have all types of different attributes such as text, background color, width, etc.
+
+Nodes have properties, methods, and events. Methods here means functions and events refer to various happenings like hover over a link, clicking a button, etc. The Page content of the website is represented by DOM. (Scripting Language) JavaScript uses DOM to interact with the document. Accessing the DOM is done with an API (Application Programming Interface). API is browser-independent.
+
+•	Document - It is the root of the page
+•	Element - A node in the tree
+•	nodelist - An array or group of elements
+•	attribute - A node in DOM though rarely used that way. It provides another way to manipulate or change the document.
+Before closing on this topic and moving to the next module let’s talk about Interactivity and how JavaScript does that in our Website. So, HTML5 and CSS3 are not interactive. JavaScript can read and write HTML elements, react/respond to events, validate data, detect visitors, and create cookies.
+
