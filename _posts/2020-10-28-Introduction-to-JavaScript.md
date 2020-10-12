@@ -1,7 +1,4 @@
-<div class="text-white bg-blue mb-2">
-<h1>Introduction to JavaScript</h1>
-</div>
-
+- ![#0366d6](https://via.placeholder.com/15/0366d6/000000?text=+) '<h1>Introduction to JavaScript</h1>'
 Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging. We will wrap up all the concepts related to JavaScript in these modules
 
 JavaScript is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project), the Mozilla Foundation, and the Mozilla Corporation. JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more. JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort.
