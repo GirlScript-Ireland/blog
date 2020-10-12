@@ -114,6 +114,16 @@ So, for this purpose we have 3 keywords basically that we will be seeing several
 
 Thus, if you are someone who has worked on some other programming language, note for you guys that in Js there is no such difference in technique of variable declaration for decimal, integer, boolean, and string. For most of the cases, we have discussed and pretty much sure you might have understood the concept. So, as in the case, there are many data types in JavaScript and for that, you need to explore the internet knowing about all of them. During the discussion about Variable’s there’s an assignment so if you did it than superb and you might be surprised to see “undefined” rather than getting an error or something like that, it’s like a NULL value telling that till now the memory is allocated to the variable but no value has been assigned to the variable.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js3.PNG)
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js4.PNG)
+
+Code:
+```Javascript
+var name = "Aman"; //We can store string in here
+console.log(name); //Prints the name
+var number = 5; //store integer type
+var decimal = 5.5;
+var bool = true;
+console.long(bool);
+```
 
 As far we have discussed variable declaration using ‘var’ slowly through implementation we will try to cover up ‘let’ and ‘const’ as well. So, first, let’s discuss ‘const’ keyword. ‘const’ is also used to declare variables but it locks the value in that particular memory address. 
