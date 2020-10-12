@@ -53,7 +53,7 @@ So, let’s start now:
 8. Go to the file and Open it with Web Browser and you will see Hello World written in big headings over there, but there’s nothing to do with Js as the script.js file is empty.
 9. Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js1.PNG)
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js1.PNG">
 
 10. Now once you are done with this part, go to script.js over VS Code.
 11. In the script.js in VS Code write the following line as shown and save it:
@@ -66,7 +66,7 @@ console.log("Hello JavaScript");
 
 Yeah! It’s fine, all clear 100% there’s no problem with it. But this is not the only way to run the JavaScript and we need to know why this is all happening and how can I run the same code in a bit advanced manner??
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js2.PNG)
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js2.PNG">
 
 So First of all, we need to understand JavaScript is just like other languages like C++, Java, or Python. It needs a certain thing, tool or set of software so that this JavaScript language can be converted into Machine-Level Language and that’s the most foundation of running the JavaScript and since the very history long we have always seen that the JavaScript comes with a compiler that converts JS code into executable code. Nobody bothers that there’s a compiler running our code. The fact is this engine was already having compilers and people think that they can be run only over browsers. Some of the JavaScript Engines namely are ‘V8’ and ‘Spider Monkey’.
 
@@ -100,7 +100,7 @@ Before moving further let’s have a look at something that almost everyone know
 So, as you can see here through this diagram it’s clear how 
 the web documents are associated with each other.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/HTML_CSS_JS.PNG)
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js3.PNG">
 
 <h3>ECMAScript</h3>
 In the earlier days, there were a lot of scripting languages that were coming up and by scripting languages, we are not referring to bash-trial or Pearl. In this entire scripting world, languages like ActionScript, JavaScript, Jscript, Gscript, and a whole bunch of other languages keep on coming and they were competing with each other. For all the browsers it was getting hard to support all of them, so the European Union (European Computer Manufacturing Association) came into the picture, and then ECMAscript came into the picture. They tried to unify things as one so that things can be done and brought together efficiently, they brought out a set of rules, instructions, and guidelines and this gave rise to ECMAscript. JavaScript is one of the languages which follows the ECMAscript guidelines. The major change came into the picture from ES5 and ES6 onwards. ES6 came into the year 2015 and ES8 in 2018. You might be thinking of working with ES10 or probably even the latest ones. It’s not a great idea to directly jump to ES10 because they are all majorly backward compatible, but the latest browsers supporting there features not possible. So, we will be going through the basic/general version of JavaScript which is even before ES6 and then we will move forward into the features which are available in ES7, ES10.
@@ -114,8 +114,8 @@ So, for this purpose we have 3 keywords basically that we will be seeing several
 
 Thus, if you are someone who has worked on some other programming language, note for you guys that in Js there is no such difference in technique of variable declaration for decimal, integer, boolean, and string. For most of the cases, we have discussed and pretty much sure you might have understood the concept. So, as in the case, there are many data types in JavaScript and for that, you need to explore the internet knowing about all of them. During the discussion about Variable’s there’s an assignment so if you did it than superb and you might be surprised to see “undefined” rather than getting an error or something like that, it’s like a NULL value telling that till now the memory is allocated to the variable but no value has been assigned to the variable.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js4.PNG)
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js5.PNG)
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js4.PNG">
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js5.PNG">
 
 Code:
 ```Javascript
@@ -135,16 +135,15 @@ const uid = “abc123”; // Nowhere in this case the value of uid can never be 
 
 i.e. it says ok uid is the variable name with some space assigned in memory, you can use it for processing but you can’t change the value in uid.
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js6.PNG)
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js7.PNG)
-
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js6.PNG">
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js7.PNG">
+	
 So, in the above example we are trying to show you how we can write data into the console, and the use of ‘var’. ‘const’ is pretty much similar to ‘var’ the only difference is its value cannot be changed throughout the program.
 
 Another alternative technique for printing the same is as follows:
 
-
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js8.PNG)
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js9.PNG)
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js8.PNG">
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js9.PNG">
 
 This makes writing over the console task a whole lot easier.
 
@@ -152,8 +151,8 @@ This makes writing over the console task a whole lot easier.
 
 Operators are tokens that trigger some computation when applied to objects and variables in an expression. Operators are none other than the basic mathematical operations that we perform on numbers example +, -, *, /, %, (AND)&&, (OR)||, (Bitwise AND)&, (Bitwise OR)|, >, <, >=, <=, (equal)==, (assignment)=, (Bitwise OR assignment)|=, (Bitwise XOR)^, ++a or a++(increment), --a or a--(decrement), **(exponentiation) etc. You can study them all from documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js10.PNG)
-![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js11.PNG)
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js10.PNG">
+<image src="https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js11.PNG">
 
 <b>
 Authour name:<i> Aman Kumar Dewangan(AkD)</i><br>
