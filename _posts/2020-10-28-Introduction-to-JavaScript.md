@@ -91,3 +91,19 @@ Nodes have properties, methods, and events. Methods here means functions and eve
 
 Before closing on this topic and moving to the next module let’s talk about Interactivity and how JavaScript does that in our Website. So, HTML5 and CSS3 are not interactive. JavaScript can read and write HTML elements, react/respond to events, validate data, detect visitors, and create cookies.
 
+
+<h2>ES Version of JavaScript that’s fit</h2>
+Like other Languages, JavaScript has a whole of versions of JavaScript, so this question is pretty often okay to arise which one we must use. Some just came into the picture, some offered drastic changes, some offered slight changes, so which one we should be bothered about.
+
+Before moving further let’s have a look at something that almost everyone knows about JavaScript. As mentioned in the previous article, JavaScript has a great power of DOM Manipulation.
+
+So, as you can see here through this diagram it’s clear how 
+the web documents are associated with each other.
+
+<h3>ECMAScript</h3>
+In the earlier days, there were a lot of scripting languages that were coming up and by scripting languages, we are not referring to bash-trial or Pearl. In this entire scripting world, languages like ActionScript, JavaScript, Jscript, Gscript, and a whole bunch of other languages keep on coming and they were competing with each other. For all the browsers it was getting hard to support all of them, so the European Union (European Computer Manufacturing Association) came into the picture, and then ECMAscript came into the picture. They tried to unify things as one so that things can be done and brought together efficiently, they brought out a set of rules, instructions, and guidelines and this gave rise to ECMAscript. JavaScript is one of the languages which follows the ECMAscript guidelines. The major change came into the picture from ES5 and ES6 onwards. ES6 came into the year 2015 and ES8 in 2018. You might be thinking of working with ES10 or probably even the latest ones. It’s not a great idea to directly jump to ES10 because they are all majorly backward compatible, but the latest browsers supporting there features not possible. So, we will be going through the basic/general version of JavaScript which is even before ES6 and then we will move forward into the features which are available in ES7, ES10.
+
+
+<h3>Variables and Datatypes in JavaScript</h3>
+Let’s just say we want to build an application for your college so for this I would need to reserve some space in the memory. So, let’s say we want to store the roll number of a single student only for now, so I have to allocate some memory for storing the student’s roll number and I will give a unique name to that memory allocated for storing data, this is what we call variable. Variables are named memory allocations used for storing data. A Variable has a memory address and some value associated with it. A variable name can consist of letters, digits, underscores, and ($) sign which is pretty unique in case of JavaScript compared to other languages. Variables cannot start with a digit. JavaScript is a case-sensitive language i.e. ‘roll’ and ‘Roll’ are treated differently. Variable Names should be meaningful.
+So, for this purpose we have 3 keywords basically that we will be seeing several times: ‘var’, ’let’, and ‘const’. ‘var’ keyword is used to declare a variable. In JavaScript, we don’t have separate variable type declarations.
