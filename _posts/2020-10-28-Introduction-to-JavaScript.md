@@ -89,5 +89,6 @@ Nodes have properties, methods, and events. Methods here means functions and eve
 •	Element - A node in the tree<br>
 •	nodelist - An array or group of elements<br>
 •	attribute - A node in DOM though rarely used that way. It provides another way to manipulate or change the document.<br>
+
 Before closing on this topic and moving to the next module let’s talk about Interactivity and how JavaScript does that in our Website. So, HTML5 and CSS3 are not interactive. JavaScript can read and write HTML elements, react/respond to events, validate data, detect visitors, and create cookies.
 
