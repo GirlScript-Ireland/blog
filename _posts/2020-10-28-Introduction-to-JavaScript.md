@@ -108,4 +108,12 @@ In the earlier days, there were a lot of scripting languages that were coming up
 
 <h3>Variables and Datatypes in JavaScript</h3>
 Let’s just say we want to build an application for your college so for this I would need to reserve some space in the memory. So, let’s say we want to store the roll number of a single student only for now, so I have to allocate some memory for storing the student’s roll number and I will give a unique name to that memory allocated for storing data, this is what we call variable. Variables are named memory allocations used for storing data. A Variable has a memory address and some value associated with it. A variable name can consist of letters, digits, underscores, and ($) sign which is pretty unique in case of JavaScript compared to other languages. Variables cannot start with a digit. JavaScript is a case-sensitive language i.e. ‘roll’ and ‘Roll’ are treated differently. Variable Names should be meaningful.
+
 So, for this purpose we have 3 keywords basically that we will be seeing several times: ‘var’, ’let’, and ‘const’. ‘var’ keyword is used to declare a variable. In JavaScript, we don’t have separate variable type declarations.
+
+
+Thus, if you are someone who has worked on some other programming language, note for you guys that in Js there is no such difference in technique of variable declaration for decimal, integer, boolean, and string. For most of the cases, we have discussed and pretty much sure you might have understood the concept. So, as in the case, there are many data types in JavaScript and for that, you need to explore the internet knowing about all of them. During the discussion about Variable’s there’s an assignment so if you did it than superb and you might be surprised to see “undefined” rather than getting an error or something like that, it’s like a NULL value telling that till now the memory is allocated to the variable but no value has been assigned to the variable.
+
+![Alt](https://github.com/amandewatnitrr/blog/blob/master/_posts/Js_Tutorial_Images/js3.PNG)
+
+As far we have discussed variable declaration using ‘var’ slowly through implementation we will try to cover up ‘let’ and ‘const’ as well. So, first, let’s discuss ‘const’ keyword. ‘const’ is also used to declare variables but it locks the value in that particular memory address. 
