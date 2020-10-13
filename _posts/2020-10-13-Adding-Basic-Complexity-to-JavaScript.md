@@ -90,4 +90,4 @@ Now let’s jump out to some crazy stuff, like what happens when we add a string
 <b>Authour name:</b><i> Aman Kumar Dewangan(AkD)</i><br>
 <b>Authour's Country:</b> <i>India</i><br>
 <b>Brief Experience History:</b> <i>My name is Aman Kumar Dewangan, currently pursuin my B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am also a Frontend Developer and beginner into Cloud Engineering. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br>
-<b>Blog Content:</b> <i>The Blog is for those who are beginners into Web Development and have already learnt HTML and CSS and wish to learn Javascript in order to make there website more responsive.</i>
+<b>Blog Content:</b> <i>The Blog is in Continuation to the previous blog on <a link="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">"Introduction to JavaScript"</a>, here we introduce you to the basics of conditional and switching statements.</i>
