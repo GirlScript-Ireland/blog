@@ -30,7 +30,7 @@ So, as in the example, we can see we have a variable declared using ‘let’ ke
 
 Variables are declared by let have their scope in the block for which they are defined, as well as in any contained sub-blocks. In this way, let work very much like var. The main difference is that the scope of a var variable is the entire enclosing function. We will further go though this topic once again when we discuss functions.
 
-<h2>More about working with Conditionals<h2>
+<h2>More about working with Conditionals</h2>
 
 So, now let’s talk about the Ternary Operator. Ternary Operator is kind of alternative to if() and else() statements. The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is true followed by a colon (:), and finally the expression to execute if the condition is false. This operator is frequently used as a shortcut for the if statement.
 
