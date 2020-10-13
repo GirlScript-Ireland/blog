@@ -34,12 +34,12 @@ Variables are declared by let have their scope in the block for which they are d
 
 So, now let’s talk about the Ternary Operator. Ternary Operator is kind of alternative to if() and else() statements. The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is true followed by a colon (:), and finally the expression to execute if the condition is false. This operator is frequently used as a shortcut for the if statement.
 
-![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/js16.PNG)
+![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/js18.PNG)
 
 To Understand the use of a Ternary Operator and it’s used a replacement to the if-else statement, let’s understand a general example. Let’s say you go to the market to purchase a book if you are a permanent customer of that shop you are most probably going to get a discount, but if not then you have to possibly pay the original price. 
 
+![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/js16.PNG)
 ![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/js17.PNG)
-![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/js18.PNG)
 
 <h2>Nested if-else</h2>
 In some situations, we might need to check condition one after the other but not as a whole like if I pass the 1st condition than I check the second, otherwise I won’t go for that, this type of if-else methodology is called nested if-else. We will be demonstrating the same using the example below:
