@@ -1,7 +1,6 @@
 <div class="text-white bg-blue mb-2"><h1>Functions and Scope in JavaScript</h1></div><br>
-
 <h2>Functions in JavaScript</h2><br>
-![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/Sign1.PNG)
+
 A function is a named block of code that can be invoked from other parts of the program. Due to Functions being one of the most foundational topics in JavaScript many things weren’t being discussed in deep yet. JavaScript is functional programming you can say. Now a thought might strike out why are we using these functions, what’s the benefit.<br><br>The idea behind the function is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again and making desired changes every time where ever we require it and for different inputs we can call that function.<br><br>JavaScript has built-in as well as user-defined functions as well. Like console.log () it’s an inbuilt function in JavaScript, similarly, user can also create their functions. We can create functions in JavaScript using the keyword ‘function’.
 <br><br>So, let’s start up on this with some examples:
 
