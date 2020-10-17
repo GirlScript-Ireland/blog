@@ -15,6 +15,14 @@ Though we have tried to cover almost everything as a programmer it’s your resp
 
 Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
+<table border="1">
+	<tr><th>S.no.</th><th>Topic</th></tr>
+	<tr><td>1.</td><td>Introduction to JavaScript</td></tr>
+	<tr><td>2.</td><td>Conditionals and Switching Elements in JavaScript</td></tr>
+	<tr><td>3.</td><td>Functions and Scope Chaining in JavaScript</td></tr>
+	<tr><td rowspan =" 3 ">Many More..Coming Soon...</td></tr>
+</table>
+
 <h2>What are JavaScript Engines??</h2>
   
 Actually, before writing code in JavaScript, you need to know where we are gonna write and run our code and probably, you might be excited about that, so hold on for a moment first let’s move through the software needs first. 
