@@ -20,7 +20,7 @@ Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 	<tr><td>1.</td><td>Introduction to JavaScript</td></tr>
 	<tr><td>2.</td><td>Conditionals and Switching Elements in JavaScript</td></tr>
 	<tr><td>3.</td><td>Functions and Scope Chaining in JavaScript</td></tr>
-	<tr><td rowspan =" 3 ">Many More..Coming Soon...</td></tr>
+	<tr><td colspan =" 2 ">Many More..Coming Soon...</td></tr>
 </table>
 
 <h2>What are JavaScript Engines??</h2>
