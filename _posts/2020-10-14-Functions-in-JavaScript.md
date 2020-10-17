@@ -150,5 +150,4 @@ So, it’s quite confusing to understand and things appear like it doesn’t mak
 <b>Authour name:</b><i> Aman Kumar Dewangan(AkD)</i><br>
 <b>Authour's Country: </b><i>India</i><br>
 <b>Brief Experience History: </b><i>My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br>
-<b>
 <b>Blog Content:</b> <i>The Blog is in Continuation to the previous blog on <a link="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html">"Adding Basic Complexity To Javascript"</a>, here we introduce you to the functions in JavaScript and Scope Chaining in JavaScript.</i>
