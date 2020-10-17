@@ -13,13 +13,18 @@ Just 10 minutes of daily walk through each module, you can be a JavaScript exper
 
 Though we have tried to cover almost everything as a programmer it’s your responsibility as well to keep looking on to the original documentation of these languages over the internet for better knowledge.
 
-Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-
+Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript<br>
+<h2>Table of Content for Tutorial</h2>
 <table border="1">
 	<tr><th>S.no.</th><th>Topic</th></tr>
-	<tr><td>1.</td><td>Introduction to JavaScript</td></tr>
-	<tr><td>2.</td><td>Conditionals and Switching Elements in JavaScript</td></tr>
+	<tr><td>1.</td><td><a href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">Introduction to JavaScript</a></td></tr>
+	<tr><td>2.</td><td><a href="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html">Conditionals and Switching Elements in JavaScript</a></td></tr>
 	<tr><td>3.</td><td>Functions and Scope Chaining in JavaScript</td></tr>
+	<tr><td>4.</td><td>More with Functions, Arrays and Objects in JavaScript</td></tr>
+	<tr><td>5.</td><td>Loops in JavaScript</td></tr>
+	<tr><td>6.</td><td>DOM Manipulation and Events in JavaScript</td></tr>
+	<tr><td>7.</td><td>Getting Started with your first project in JavaScript</td></tr>
+	<tr><td>8.</td><td>Back to the Hell and What's "__proto__??"</td></tr>
 	<tr><td colspan =" 2 ">Many More..Coming Soon...</td></tr>
 </table>
 
