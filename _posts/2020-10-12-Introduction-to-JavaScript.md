@@ -13,7 +13,20 @@ Just 10 minutes of daily walk through each module, you can be a JavaScript exper
 
 Though we have tried to cover almost everything as a programmer it’s your responsibility as well to keep looking on to the original documentation of these languages over the internet for better knowledge.
 
-Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript<br>
+<h2>Table of Content for Tutorial</h2>
+<table border="1">
+	<tr><th>S.no.</th><th>Topic</th></tr>
+	<tr><td>1.</td><td><a href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">Introduction to JavaScript</a></td></tr>
+	<tr><td>2.</td><td><a href="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html">Conditionals and Switching Elements in JavaScript</a></td></tr>
+	<tr><td>3.</td><td>Functions and Scope Chaining in JavaScript</td></tr>
+	<tr><td>4.</td><td>More with Functions, Arrays and Objects in JavaScript</td></tr>
+	<tr><td>5.</td><td>Loops in JavaScript</td></tr>
+	<tr><td>6.</td><td>DOM Manipulation and Events in JavaScript</td></tr>
+	<tr><td>7.</td><td>Getting Started with your first project in JavaScript</td></tr>
+	<tr><td>8.</td><td>Back to the Hell and What's "__proto__??"</td></tr>
+	<tr><td colspan =" 2 ">Many More..Coming Soon...</td></tr>
+</table>
 
 <h2>What are JavaScript Engines??</h2>
   
@@ -155,9 +168,9 @@ Operators are tokens that trigger some computation when applied to objects and v
 ![Alt]({{site.baseurl}}/assets/Js_Tutorial_Images/js10.PNG)
 <img src="{{site.baseurl}}/assets/Js_Tutorial_Images/js11.PNG">
 
-<b>
-Authour name:<i> Aman Kumar Dewangan(AkD)</i><br>
-Authour's Country: <i>India</i><br>
-Brief Experience History: <i>My name is Aman Kumar Dewangan, currently pursuin my B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am also a Frontend Developer and beginner into Cloud Engineering. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br>
-Blog Content: <i>The Blog is for those who are beginners into Web Development and have already learnt HTML and CSS and wish to learn Javascript in order to make there website more responsive.</i>
-</b>
+
+<b>Authour name:</b><i> Aman Kumar Dewangan(AkD)</i><br>
+<b>Authour's Country: </b><i>India</i><br>
+<b>Brief Experience History: </b><i>My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br>
+<b>Blog Content:</b> <i>The Blog is for those who are beginners into Web Development and have already learnt HTML and CSS and wish to learn Javascript in order to make there website more responsive.</i>
+
