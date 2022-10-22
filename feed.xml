@@ -1,436 +1,436 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://girlscript-ireland.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://girlscript-ireland.github.io/blog/" rel="alternate" type="text/html" /><updated>2022-03-09T07:15:52-06:00</updated><id>https://girlscript-ireland.github.io/blog/feed.xml</id><title type="html">GirlScript Ireland Blog</title><subtitle>The official blog for GirlScript Ireland</subtitle><entry><title type="html">Functions In Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/14/Functions-in-JavaScript.html" rel="alternate" type="text/html" title="Functions In Javascript" /><published>2020-10-14T00:00:00-05:00</published><updated>2020-10-14T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/14/Functions-in-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/14/Functions-in-JavaScript.html">&lt;div class=&quot;text-white bg-blue mb-2&quot;&gt;&lt;h1&gt;Functions and Scope in JavaScript&lt;/h1&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2&gt;Functions in JavaScript&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://girlscript-ireland.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://girlscript-ireland.github.io/blog/" rel="alternate" type="text/html" /><updated>2022-10-22T04:39:06-05:00</updated><id>https://girlscript-ireland.github.io/blog/feed.xml</id><title type="html">GirlScript Ireland Blog</title><subtitle>The official blog for GirlScript Ireland</subtitle><entry><title type="html">Functions In Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/14/Functions-in-JavaScript.html" rel="alternate" type="text/html" title="Functions In Javascript" /><published>2020-10-14T00:00:00-05:00</published><updated>2020-10-14T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/14/Functions-in-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/14/Functions-in-JavaScript.html"><![CDATA[<div class="text-white bg-blue mb-2"><h1>Functions and Scope in JavaScript</h1></div>
+<p><br /></p>
+<h2>Functions in JavaScript</h2>
+<p><br /></p>
 
-&lt;p&gt;A function is a named block of code that can be invoked from other parts of the program. Due to Functions being one of the most foundational topics in JavaScript many things weren’t being discussed in deep yet. JavaScript is functional programming you can say. Now a thought might strike out why are we using these functions, what’s the benefit.&lt;br /&gt;&lt;br /&gt;The idea behind the function is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again and making desired changes every time where ever we require it and for different inputs we can call that function.&lt;br /&gt;&lt;br /&gt;JavaScript has built-in as well as user-defined functions as well. Like console.log () it’s an inbuilt function in JavaScript, similarly, user can also create their functions. We can create functions in JavaScript using the keyword ‘function’.
-&lt;br /&gt;&lt;br /&gt;So, let’s start up on this with some examples:&lt;/p&gt;
+<p>A function is a named block of code that can be invoked from other parts of the program. Due to Functions being one of the most foundational topics in JavaScript many things weren’t being discussed in deep yet. JavaScript is functional programming you can say. Now a thought might strike out why are we using these functions, what’s the benefit.<br /><br />The idea behind the function is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again and making desired changes every time where ever we require it and for different inputs we can call that function.<br /><br />JavaScript has built-in as well as user-defined functions as well. Like console.log () it’s an inbuilt function in JavaScript, similarly, user can also create their functions. We can create functions in JavaScript using the keyword ‘function’.
+<br /><br />So, let’s start up on this with some examples:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js27.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js28.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js27.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js28.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, as seeing the above function, a function as it’s a declaration and the other when it’s called. Just defining a function can’t make it automatically executed, we need to call wherever we need to execute it.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2&gt;PASSING VALUE/VARIABLE TO A FUNCTION&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p>So, as seeing the above function, a function as it’s a declaration and the other when it’s called. Just defining a function can’t make it automatically executed, we need to call wherever we need to execute it.<br /><br /></p>
+<h2>PASSING VALUE/VARIABLE TO A FUNCTION</h2>
+<p><br /></p>
 
-&lt;p&gt;So, eventually, if we define a function, it’s the value of an expression based on certain no. of inputs. Similarly, here in JavaScript we will be passing variables here and show what all we can do with that.&lt;/p&gt;
+<p>So, eventually, if we define a function, it’s the value of an expression based on certain no. of inputs. Similarly, here in JavaScript we will be passing variables here and show what all we can do with that.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js29.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js30.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js29.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js30.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, in the example mentioned above, I declared a function named display() that takes 2 inputs your name and your age and prints it in a given format. A function can be with/without arguments. As we can see the function minimizes the need for writing the same code and changing it back again and again rather give just different inputs and produce output in the same manner again and again the way we want.&lt;/p&gt;
+<p>So, in the example mentioned above, I declared a function named display() that takes 2 inputs your name and your age and prints it in a given format. A function can be with/without arguments. As we can see the function minimizes the need for writing the same code and changing it back again and again rather give just different inputs and produce output in the same manner again and again the way we want.</p>
 
-&lt;h2&gt;RETURNING VALUES FROM A FUNCTION&lt;/h2&gt;
+<h2>RETURNING VALUES FROM A FUNCTION</h2>
 
-&lt;p&gt;As we have seen till now, how we can minimize the task of writing code, again and again, using a function, let’s now move onto how we can return some value from a function.
-Returning some value in the sense means giving some kind of data back as output. Let’s consider the following example for this purpose.&lt;/p&gt;
+<p>As we have seen till now, how we can minimize the task of writing code, again and again, using a function, let’s now move onto how we can return some value from a function.
+Returning some value in the sense means giving some kind of data back as output. Let’s consider the following example for this purpose.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js31.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js32.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js31.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js32.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, let’s again break down the code and understand what’s going on. Basically, I have a function declaration with name display as the previous case, the function takes 2 arguments as input from the user and then stores the new string generated after processing in a variable and return that variable as an output. The string stored in that variable is stored in a variable declared in the execution-able scope and the output is printed on the console.&lt;/p&gt;
+<p>So, let’s again break down the code and understand what’s going on. Basically, I have a function declaration with name display as the previous case, the function takes 2 arguments as input from the user and then stores the new string generated after processing in a variable and return that variable as an output. The string stored in that variable is stored in a variable declared in the execution-able scope and the output is printed on the console.</p>
 
-&lt;h2&gt;Understand the context in JavaScript&lt;/h2&gt;
-&lt;p&gt;Many of the programmers out there say that JavaScript is odd, people say it’s weird, but no that’s not the point it’s actually about understanding the context of JavaScript that many don’t.
-So, let’s first do something a bit crazy. Let’s see this example:&lt;/p&gt;
+<h2>Understand the context in JavaScript</h2>
+<p>Many of the programmers out there say that JavaScript is odd, people say it’s weird, but no that’s not the point it’s actually about understanding the context of JavaScript that many don’t.
+So, let’s first do something a bit crazy. Let’s see this example:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js33.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js34.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js33.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js34.PNG" alt="Alt" /></p>
 
-&lt;p&gt;Now, I don’t know if you realized whether that the function calling code before the function has been declared, it’s like I used a time-machine to go back into the past in time before I was born and tell, hey you know me. But something similar happens in JavaScript. So, does this statement makes sense, yeah and it even works. So, this is all about the global context of the JavaScript and to understand how this global context works. JavaScript has a bigger context in which everything resides.
-The global context differs a bit when we execute the code in the browser and Node.js, let’s consider the below piece of code as an example:&lt;/p&gt;
+<p>Now, I don’t know if you realized whether that the function calling code before the function has been declared, it’s like I used a time-machine to go back into the past in time before I was born and tell, hey you know me. But something similar happens in JavaScript. So, does this statement makes sense, yeah and it even works. So, this is all about the global context of the JavaScript and to understand how this global context works. JavaScript has a bigger context in which everything resides.
+The global context differs a bit when we execute the code in the browser and Node.js, let’s consider the below piece of code as an example:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js35.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js35.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, it’s completely clear that above script.js file runs fine and then I moved to the console and did the same thing back but this time I used ‘window.name’ instead of name and rest, everything’s the same, and it worked pretty well the same way.&lt;br /&gt;
-So, there’s just a bit different with the global context if you run it over the Node.js, here it might show ‘window’ is not defined because there the global context will be run by node.js, and hence the global context is not available there. The global context differs when we execute it in code and the one we do in the browser. There’s always a context there with the JavaScript Engine and that context is responsible that all of the things are registered inside the context, so that once the function is been registered then that function is wrapped up and put inside a global context. Whenever we need to do that when the code executes it is aware of those functions, that’s the reason why even using the calling code of function before the function declaration works fine.&lt;/p&gt;
+<p>So, it’s completely clear that above script.js file runs fine and then I moved to the console and did the same thing back but this time I used ‘window.name’ instead of name and rest, everything’s the same, and it worked pretty well the same way.<br />
+So, there’s just a bit different with the global context if you run it over the Node.js, here it might show ‘window’ is not defined because there the global context will be run by node.js, and hence the global context is not available there. The global context differs when we execute it in code and the one we do in the browser. There’s always a context there with the JavaScript Engine and that context is responsible that all of the things are registered inside the context, so that once the function is been registered then that function is wrapped up and put inside a global context. Whenever we need to do that when the code executes it is aware of those functions, that’s the reason why even using the calling code of function before the function declaration works fine.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js36.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js36.PNG" alt="Alt" /></p>
 
-&lt;h2&gt;Code Hoisting in JavaScript&lt;/h2&gt;
-&lt;p&gt;Understanding Context makes it clear for you to understand JavaScript in simplified and you will never consider JavaScript as a weird language again. So, in the previous article, we were mostly talking about the global context and now we will discuss the variety of context in JavaScript. So, now we will be discussing the working of Context I	n JavaScript. Whenever we say there’s a context available to us just remember there are 2 types of major context available to us:
-1&amp;gt;	Global
-2&amp;gt;	The One that’s being executed right now, if you are running a script file.
+<h2>Code Hoisting in JavaScript</h2>
+<p>Understanding Context makes it clear for you to understand JavaScript in simplified and you will never consider JavaScript as a weird language again. So, in the previous article, we were mostly talking about the global context and now we will discuss the variety of context in JavaScript. So, now we will be discussing the working of Context I	n JavaScript. Whenever we say there’s a context available to us just remember there are 2 types of major context available to us:
+1&gt;	Global
+2&gt;	The One that’s being executed right now, if you are running a script file.
 Let’s learn this topic with an example:
 The whole idea of Global context is to majorly collect the information but as soon as we want to run some code like console.log(). To make it run completely the execution context will come into picture which will be responsible for running this function. The window object is majorly tied with the browser. 
-Execution Object brings a whole lot of new things into the picture:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Variable Object&lt;/li&gt;
-  &lt;li&gt;Scope Chain&lt;/li&gt;
-  &lt;li&gt;This
-Concerning execution context we have to follow 2 rules:&lt;/li&gt;
-  &lt;li&gt;Function declarations are scanned and made available.&lt;/li&gt;
-  &lt;li&gt;Variable Declarations are scanned and made undefined.
-So, let’s catch up with little examples:&lt;/li&gt;
-&lt;/ol&gt;
+Execution Object brings a whole lot of new things into the picture:</p>
+<ol>
+  <li>Variable Object</li>
+  <li>Scope Chain</li>
+  <li>This
+Concerning execution context we have to follow 2 rules:</li>
+  <li>Function declarations are scanned and made available.</li>
+  <li>Variable Declarations are scanned and made undefined.
+So, let’s catch up with little examples:</li>
+</ol>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js37.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js38.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js37.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js38.PNG" alt="Alt" /></p>
 
-&lt;p&gt;It’s pretty much clear from the above example, how the global execution context works and how it follows the 1st rule of the execution context. Now let’s bring some crazy stuff into this as we are now ready to have some test and try. For that let’s turn the tip into the string and check what happens😋.&lt;/p&gt;
+<p>It’s pretty much clear from the above example, how the global execution context works and how it follows the 1st rule of the execution context. Now let’s bring some crazy stuff into this as we are now ready to have some test and try. For that let’s turn the tip into the string and check what happens😋.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js39.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js40.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js39.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js40.PNG" alt="Alt" /></p>
 
-&lt;p&gt;It’s pretty much clear from the code what’s happening, what if we still want to pass a string but treat it as a number, we have a function ‘parseInt(variable_name) dedicated for that. Let’s check out the next code block and implement it.&lt;/p&gt;
+<p>It’s pretty much clear from the code what’s happening, what if we still want to pass a string but treat it as a number, we have a function ‘parseInt(variable_name) dedicated for that. Let’s check out the next code block and implement it.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js41.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js42.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js41.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js42.PNG" alt="Alt" /></p>
 
-&lt;p&gt;Now let’s move to another similar example, but this time we are going to declare the function in another way, so let’s check out our code.&lt;/p&gt;
+<p>Now let’s move to another similar example, but this time we are going to declare the function in another way, so let’s check out our code.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js43.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js44.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js45.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js43.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js44.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js45.PNG" alt="Alt" /></p>
 
-&lt;p&gt;On running we will get to know that giveTip is a function but givebigTip is a variable but not a function in actual and this gives an error, so there is variable inline 13 that we are trying to use in actual and is undefined and that makes pretty much sense. The Global Context doesn’t know about it. They are functions but treated like ordinary variables and that is why code hoisting comes into the picture.
+<p>On running we will get to know that giveTip is a function but givebigTip is a variable but not a function in actual and this gives an error, so there is variable inline 13 that we are trying to use in actual and is undefined and that makes pretty much sense. The Global Context doesn’t know about it. They are functions but treated like ordinary variables and that is why code hoisting comes into the picture.
 So if the code is right what can probably go wrong, if you are thinking it that way you are right as it is a variable, we will need to declare it first and then use that variable so the correct set of code that would work fine must be like this.
 This is how it works. This is the difference in calling a function and a function variable in JavaScript. This is a part of simple code hoisting.
 Now we must also talk about the 2nd rule of the global execution context, that the variable with nothing initialized must be ‘undefined’, but I guess we should check, because there’s a lot of surprise waiting in there for you.
-This must produce two different outputs like line 1 will show undefined and the 2nd one will show me “Aman” that is the statement 1 knows about the existence of variable declared inline 2 but just isn’t aware of the value in it, hence it shows undefined.&lt;/p&gt;
+This must produce two different outputs like line 1 will show undefined and the 2nd one will show me “Aman” that is the statement 1 knows about the existence of variable declared inline 2 but just isn’t aware of the value in it, hence it shows undefined.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js48.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js47.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js48.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js47.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, This is getting pretty much long and weird but I want the readers, to get complete clarity of the topics, so one more point that must have been included in case of local and global context is that the relation between global context and execution context is just like a Last In First Out Stack(LIFO), that is the plate which is at the top needs to be displaced to take out the plate below it, and that sounds quite logical and obvious. So, look at the following example and hope that will be clear to you.&lt;/p&gt;
+<p>So, This is getting pretty much long and weird but I want the readers, to get complete clarity of the topics, so one more point that must have been included in case of local and global context is that the relation between global context and execution context is just like a Last In First Out Stack(LIFO), that is the plate which is at the top needs to be displaced to take out the plate below it, and that sounds quite logical and obvious. So, look at the following example and hope that will be clear to you.</p>
 
-&lt;p&gt;So, as we can see the line 1 recognizes the existence of name variable but has nothing stored hence shows blank which means undefined, as the name variable now gets initialized when we call the showname() function it’s local scope has a different value for that variable that’s ‘akd’, it says for whatever name of him you might be knowing I don’t care I know him as ‘akd’, as soon as the local scope of the function ends we then again try printing the value of the variable in the global scope and that’s the same thing that we expect as initialized or in simple term by which name people globally know him as ‘Aman’.&lt;/p&gt;
+<p>So, as we can see the line 1 recognizes the existence of name variable but has nothing stored hence shows blank which means undefined, as the name variable now gets initialized when we call the showname() function it’s local scope has a different value for that variable that’s ‘akd’, it says for whatever name of him you might be knowing I don’t care I know him as ‘akd’, as soon as the local scope of the function ends we then again try printing the value of the variable in the global scope and that’s the same thing that we expect as initialized or in simple term by which name people globally know him as ‘Aman’.</p>
 
-&lt;h2&gt;Scope Chaining in JavaScript&lt;/h2&gt;
+<h2>Scope Chaining in JavaScript</h2>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/Scope_Chaining.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/Scope_Chaining.PNG" alt="Alt" /></p>
 
-&lt;p&gt;As of now we have thoroughly discussed the Variable Object and the context now it’s time to discuss the Scope Chain, so for this, we will be discussing a short scenario. Let’s say we have 3 businessmen with the name Blue, Orange, and Green. Let’s say Blue is richer than Orange, and Orange is richer than Green. So Green can ask for money from Orange as well as Blue if he needs it, but Orange can ask only money from Blue as Green is less rich compared to Orange so why Orange would ask money from a guy who has even less money than him. Blue being richest among all can’t ask both of them for money as he is the richest among all, though Orange and Green are free to ask him for money as Blue is much richer.
-So, I guess you might have understood the scenario and able to visualize the things if I talk in Mathematical terms the Green covers the region of Both Orange and Blue, Orange covers the area of Blue and Blue is the complete circle in itself, with other circles lysing inside it.&lt;/p&gt;
+<p>As of now we have thoroughly discussed the Variable Object and the context now it’s time to discuss the Scope Chain, so for this, we will be discussing a short scenario. Let’s say we have 3 businessmen with the name Blue, Orange, and Green. Let’s say Blue is richer than Orange, and Orange is richer than Green. So Green can ask for money from Orange as well as Blue if he needs it, but Orange can ask only money from Blue as Green is less rich compared to Orange so why Orange would ask money from a guy who has even less money than him. Blue being richest among all can’t ask both of them for money as he is the richest among all, though Orange and Green are free to ask him for money as Blue is much richer.
+So, I guess you might have understood the scenario and able to visualize the things if I talk in Mathematical terms the Green covers the region of Both Orange and Blue, Orange covers the area of Blue and Blue is the complete circle in itself, with other circles lysing inside it.</p>
 
-&lt;p&gt;So, now let’s try visualizing it through some code.&lt;/p&gt;
+<p>So, now let’s try visualizing it through some code.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js49.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js50.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js49.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js50.PNG" alt="Alt" /></p>
 
-&lt;p&gt;What we did here is let’s say the global scope of the program to have the name Blue which has 10,000$, now there’s another businessman under blue named Orange(basically referring to the function) who has no money of his own so he asks it from the blue, blue gives his complete money to orange for business, that’s what we can visualize out of this code in the easiest possible way. So that’s why line 2 prints the value of an amt variable in the global scope, but as orange has no money or separate amt variable of his own, it automatically gets referred to the global variable.
-Now let’s make a change into the program or the scenario over here. Let’s say initially the orange guy has some money of his own let’s say 5000 i.e. it has its own variable ‘amt’, in that case, it will not refer to the global amt but will run his business with the amount he already has. Let’s understand the same through code.&lt;/p&gt;
+<p>What we did here is let’s say the global scope of the program to have the name Blue which has 10,000$, now there’s another businessman under blue named Orange(basically referring to the function) who has no money of his own so he asks it from the blue, blue gives his complete money to orange for business, that’s what we can visualize out of this code in the easiest possible way. So that’s why line 2 prints the value of an amt variable in the global scope, but as orange has no money or separate amt variable of his own, it automatically gets referred to the global variable.
+Now let’s make a change into the program or the scenario over here. Let’s say initially the orange guy has some money of his own let’s say 5000 i.e. it has its own variable ‘amt’, in that case, it will not refer to the global amt but will run his business with the amount he already has. Let’s understand the same through code.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js51.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js52.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js51.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js52.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, trying to understand and relate the scenario we can say why to ask for money if I can use my own money for the business, that’s why the log command refers to the amt variable within the function and not the one in the global scope.
+<p>So, trying to understand and relate the scenario we can say why to ask for money if I can use my own money for the business, that’s why the log command refers to the amt variable within the function and not the one in the global scope.
 The reason why people JavaScript a weird language is because it’s really weird, for example, if you are asked about how you identify any scope, and the answer most probably is anything within curly braces that’s right but in JavaScript, it’s not truly considered as a scope. Though it is a scope, don’t get wrong there but it’s not truly scope in the world of JavaScript but rather an only element that is tied to a function, but not in a case like for, if, else, switch, etc.
-Now let’s bring the third businessmen into the picture here.&lt;/p&gt;
+Now let’s bring the third businessmen into the picture here.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js53.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js54.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js53.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js54.PNG" alt="Alt" /></p>
 
-&lt;p&gt;Now, have a look at this code so now we can visualize it as 3 businessmen sub-local under local under global. The Global Leader has 10,000$, the person working under him that is the local guy has 5000$ but the sub-local guy working under him has no money of his own so he asks to his superior the local/orange guy for the money and he gives it and Remembers the Richer person cannot ask money from the poor guy.
-Now, what if I also give some money to the green guy as well, yeah you are not getting it once the green guy also has his own money, he won’t ask the blue or the orange guy for the money. In that scenario, the code would be somewhat like.&lt;/p&gt;
+<p>Now, have a look at this code so now we can visualize it as 3 businessmen sub-local under local under global. The Global Leader has 10,000$, the person working under him that is the local guy has 5000$ but the sub-local guy working under him has no money of his own so he asks to his superior the local/orange guy for the money and he gives it and Remembers the Richer person cannot ask money from the poor guy.
+Now, what if I also give some money to the green guy as well, yeah you are not getting it once the green guy also has his own money, he won’t ask the blue or the orange guy for the money. In that scenario, the code would be somewhat like.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js55.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js56.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js55.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js56.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, now as the green function has it’s own ‘amt’ variable it won’t approach the block superior to it for the value.&lt;/p&gt;
+<p>So, now as the green function has it’s own ‘amt’ variable it won’t approach the block superior to it for the value.</p>
 
-&lt;h2&gt;What is this “This” in JavaScript??&lt;/h2&gt;
-&lt;p&gt;Many of you who have programmer friends, who might be familiar with JavaScript might already be telling you about JavaScript and the weirdness of the language and especially about this ‘this’ thing. For now, this would be just an introduction to this topic, and once we learn other things and find our-self capable to understand the deep concept we will bring them to light again.
+<h2>What is this “This” in JavaScript??</h2>
+<p>Many of you who have programmer friends, who might be familiar with JavaScript might already be telling you about JavaScript and the weirdness of the language and especially about this ‘this’ thing. For now, this would be just an introduction to this topic, and once we learn other things and find our-self capable to understand the deep concept we will bring them to light again.
 So, to understand this let’s start with what is this ‘this’ in actual, sounds crazy but yeah!!
 Enter the following code in your JavaScript Engine and see what’s the output
 console.log(this);
-Most expectedly you are going to get different outputs on different engines because every engine has its global context, but most people prefer node.js or the browser only. So, there are 2 possible outputs as of being only concerned with node.js and browser:&lt;/p&gt;
+Most expectedly you are going to get different outputs on different engines because every engine has its global context, but most people prefer node.js or the browser only. So, there are 2 possible outputs as of being only concerned with node.js and browser:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js57.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js58.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js57.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js58.PNG" alt="Alt" /></p>
 
-&lt;p&gt;The first one is the empty set i.e. for node.js engine just without anything else in a .js file refers to an empty scope/set. While the same thing over browser refers to a window object. 
-Now let’s try to experiment and visualize things by doing some basic things like declaring variables and functions. So let’s do something with the code:&lt;/p&gt;
+<p>The first one is the empty set i.e. for node.js engine just without anything else in a .js file refers to an empty scope/set. While the same thing over browser refers to a window object. 
+Now let’s try to experiment and visualize things by doing some basic things like declaring variables and functions. So let’s do something with the code:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js60.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js59.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js60.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js59.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, it’s quite confusing to understand and things appear like it doesn’t make any sense so, for now, let’s keep a hold on to this topic, not to confuse much to our readers, for now, let’s keep it clear cut that the code gives us access to the global object window. When we have much better knowledge about syntax and other concepts we will move back onto this topic and then we will understand it in much more detail.&lt;/p&gt;
+<p>So, it’s quite confusing to understand and things appear like it doesn’t make any sense so, for now, let’s keep a hold on to this topic, not to confuse much to our readers, for now, let’s keep it clear cut that the code gives us access to the global object window. When we have much better knowledge about syntax and other concepts we will move back onto this topic and then we will understand it in much more detail.</p>
 
-&lt;p&gt;&lt;b&gt;Authour name:&lt;/b&gt;&lt;i&gt; Aman Kumar Dewangan(AkD)&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Authour’s Country: &lt;/b&gt;&lt;i&gt;India&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Brief Experience History: &lt;/b&gt;&lt;i&gt;My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Blog Content:&lt;/b&gt; &lt;i&gt;The Blog is in Continuation to the previous blog on &lt;a link=&quot;https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html&quot;&gt;“Adding Basic Complexity To Javascript”&lt;/a&gt;, here we introduce you to the functions in JavaScript and Scope Chaining in JavaScript.&lt;/i&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Functions and Scope in JavaScript Functions in JavaScript</summary></entry><entry><title type="html">Adding Basic Complexity To Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html" rel="alternate" type="text/html" title="Adding Basic Complexity To Javascript" /><published>2020-10-13T00:00:00-05:00</published><updated>2020-10-13T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html">&lt;div class=&quot;text-white bg-blue mb-2&quot;&gt;&lt;h1&gt;Adding Little Complexity to JavaScript&lt;/h1&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<p><b>Authour name:</b><i> Aman Kumar Dewangan(AkD)</i><br />
+<b>Authour’s Country: </b><i>India</i><br />
+<b>Brief Experience History: </b><i>My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br />
+<b>Blog Content:</b> <i>The Blog is in Continuation to the previous blog on <a link="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html">“Adding Basic Complexity To Javascript”</a>, here we introduce you to the functions in JavaScript and Scope Chaining in JavaScript.</i></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Functions and Scope in JavaScript Functions in JavaScript]]></summary></entry><entry><title type="html">Adding Basic Complexity To Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html" rel="alternate" type="text/html" title="Adding Basic Complexity To Javascript" /><published>2020-10-13T00:00:00-05:00</published><updated>2020-10-13T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html"><![CDATA[<div class="text-white bg-blue mb-2"><h1>Adding Little Complexity to JavaScript</h1></div>
+<p><br /></p>
 
-&lt;h2&gt;Conditionals in JavaScript&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<h2>Conditionals in JavaScript</h2>
+<p><br /></p>
 
-&lt;p&gt;So, talking about the conditionals, so conditionals are nothing but they let you execute a block of code depending upon a condition. You might be now thinking what’s a block or block of code. There are in total 3 conditional statements:&lt;br /&gt;&lt;/p&gt;
+<p>So, talking about the conditionals, so conditionals are nothing but they let you execute a block of code depending upon a condition. You might be now thinking what’s a block or block of code. There are in total 3 conditional statements:<br /></p>
 
-&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;•	if(condition) {/*block of statements*/}&amp;lt;br&amp;gt;
-•	else if(condition) {/*block of statements*/} &amp;lt;br&amp;gt;
-•	else() {/*block of statements*/}&amp;lt;br&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-JavaScript">•	if(condition) {/*block of statements*/}&lt;br&gt;
+•	else if(condition) {/*block of statements*/} &lt;br&gt;
+•	else() {/*block of statements*/}&lt;br&gt;
+</code></pre>
 
-&lt;p&gt;There’s nothing much to do with that, to make you explain you the concept behind this takes a look below:&lt;/p&gt;
+<p>There’s nothing much to do with that, to make you explain you the concept behind this takes a look below:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js12.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js13.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js12.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js13.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, the thing here is in the above example we have blocks of code that get executed or run depending upon a particular condition, as you can see when I reload my browser, what I see over the console is the output as shown. This happened so because let’s think of simple mathematics I have temperature = 30 assigned, now I ask you is a temperature greater than 20, yes that’s true so that false is actually stored here in a Boolean variable and hence you might decide to hangout that day as the weather is pretty much clear. So, temperature check was the condition here, Hangout is the processor block of code that was executed as a result if weather is fine. If the weather wasn’t clear you would have decided to stay in. Yeah that’s the point depending upon a condition check we execute a block of the statement; such statements are called conditional statements.&lt;/p&gt;
+<p>So, the thing here is in the above example we have blocks of code that get executed or run depending upon a particular condition, as you can see when I reload my browser, what I see over the console is the output as shown. This happened so because let’s think of simple mathematics I have temperature = 30 assigned, now I ask you is a temperature greater than 20, yes that’s true so that false is actually stored here in a Boolean variable and hence you might decide to hangout that day as the weather is pretty much clear. So, temperature check was the condition here, Hangout is the processor block of code that was executed as a result if weather is fine. If the weather wasn’t clear you would have decided to stay in. Yeah that’s the point depending upon a condition check we execute a block of the statement; such statements are called conditional statements.</p>
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;As you have seen above that not only single condition can be checked at a time, but more than one condition can also be checked using the Logical AND (&amp;amp;&amp;amp;) and Logical OR (&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;) operator.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <tbody>
+    <tr>
+      <td>As you have seen above that not only single condition can be checked at a time, but more than one condition can also be checked using the Logical AND (&amp;&amp;) and Logical OR (</td>
+      <td> </td>
+      <td>) operator.</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;So, now to some discussion about how we can use ‘let’ to declare variables and how is it different from ‘var’.  A variable declared using ‘let’ lets you declare a block-scoped local variable, optionally initializing it to a value. Now you might be thinking what is this scope thing. In a program, we have 2 scopes global and local. If something is global, let’s say “Sunrises from the east and sets in the west.”, that’s something that everyone knows but if I say “India is densely populated.”, then here we are talking about India only and no concern with the outside world. Similarly, let’s take an example to understand this.&lt;/p&gt;
+<p>So, now to some discussion about how we can use ‘let’ to declare variables and how is it different from ‘var’.  A variable declared using ‘let’ lets you declare a block-scoped local variable, optionally initializing it to a value. Now you might be thinking what is this scope thing. In a program, we have 2 scopes global and local. If something is global, let’s say “Sunrises from the east and sets in the west.”, that’s something that everyone knows but if I say “India is densely populated.”, then here we are talking about India only and no concern with the outside world. Similarly, let’s take an example to understand this.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js14.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js15.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js14.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js15.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, as in the example, we can see we have a variable declared using ‘let’ keyword in the outer scope whose value is 1 as we run the code we find an if() a conditional statement which checks if the condition (== is equal where = is assignment operator) x in global scope is 1 or not if yes, it creates a local x that exists as long as closing curly bracket for if statement appears and when it’s run the value of x within ‘if’ is 2 as we can see over console but outside viewing the x variable in the global scope, it’s still 2 hence we can say that using ‘let’ keyword we can create variable with the same name but the different scope of reach.&lt;/p&gt;
+<p>So, as in the example, we can see we have a variable declared using ‘let’ keyword in the outer scope whose value is 1 as we run the code we find an if() a conditional statement which checks if the condition (== is equal where = is assignment operator) x in global scope is 1 or not if yes, it creates a local x that exists as long as closing curly bracket for if statement appears and when it’s run the value of x within ‘if’ is 2 as we can see over console but outside viewing the x variable in the global scope, it’s still 2 hence we can say that using ‘let’ keyword we can create variable with the same name but the different scope of reach.</p>
 
-&lt;p&gt;‘let’ allows you to declare variables that are limited to the scope of a &lt;a link=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/block&quot;&gt;block&lt;/a&gt; statement, or expression on which it is used, unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope. The other difference between var and let is that the latter is initialized to value only when a &lt;a link=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone&quot;&gt;parser evaluates it (see link)&lt;/a&gt;. Just like ‘const’, the let does not create properties of the window object when declared globally (in the top-most scope).&lt;/p&gt;
+<p>‘let’ allows you to declare variables that are limited to the scope of a <a link="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/block">block</a> statement, or expression on which it is used, unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope. The other difference between var and let is that the latter is initialized to value only when a <a link="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone">parser evaluates it (see link)</a>. Just like ‘const’, the let does not create properties of the window object when declared globally (in the top-most scope).</p>
 
-&lt;p&gt;Variables are declared by let have their scope in the block for which they are defined, as well as in any contained sub-blocks. In this way, let work very much like var. The main difference is that the scope of a var variable is the entire enclosing function. We will further go though this topic once again when we discuss functions.&lt;/p&gt;
+<p>Variables are declared by let have their scope in the block for which they are defined, as well as in any contained sub-blocks. In this way, let work very much like var. The main difference is that the scope of a var variable is the entire enclosing function. We will further go though this topic once again when we discuss functions.</p>
 
-&lt;h2&gt;More about working with Conditionals&lt;/h2&gt;
+<h2>More about working with Conditionals</h2>
 
-&lt;p&gt;So, now let’s talk about the Ternary Operator. Ternary Operator is kind of alternative to if() and else() statements. The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is true followed by a colon (:), and finally the expression to execute if the condition is false. This operator is frequently used as a shortcut for the if statement.&lt;/p&gt;
+<p>So, now let’s talk about the Ternary Operator. Ternary Operator is kind of alternative to if() and else() statements. The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is true followed by a colon (:), and finally the expression to execute if the condition is false. This operator is frequently used as a shortcut for the if statement.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js18.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js18.PNG" alt="Alt" /></p>
 
-&lt;p&gt;To Understand the use of a Ternary Operator and it’s used a replacement to the if-else statement, let’s understand a general example. Let’s say you go to the market to purchase a book if you are a permanent customer of that shop you are most probably going to get a discount, but if not then you have to possibly pay the original price.&lt;/p&gt;
+<p>To Understand the use of a Ternary Operator and it’s used a replacement to the if-else statement, let’s understand a general example. Let’s say you go to the market to purchase a book if you are a permanent customer of that shop you are most probably going to get a discount, but if not then you have to possibly pay the original price.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js16.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js17.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js16.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js17.PNG" alt="Alt" /></p>
 
-&lt;h2&gt;Nested if-else&lt;/h2&gt;
-&lt;p&gt;In some situations, we might need to check condition one after the other but not as a whole like if I pass the 1st condition than I check the second, otherwise I won’t go for that, this type of if-else methodology is called nested if-else. We will be demonstrating the same using the example below:&lt;/p&gt;
+<h2>Nested if-else</h2>
+<p>In some situations, we might need to check condition one after the other but not as a whole like if I pass the 1st condition than I check the second, otherwise I won’t go for that, this type of if-else methodology is called nested if-else. We will be demonstrating the same using the example below:</p>
 
-&lt;p&gt;In this example we have considered a static example where we will be setting some variables like that refers like are you signed up for a webpage, if yes then are you verified, if yes are the payment credentials verified if everything goes right, you will have access to course.&lt;/p&gt;
+<p>In this example we have considered a static example where we will be setting some variables like that refers like are you signed up for a webpage, if yes then are you verified, if yes are the payment credentials verified if everything goes right, you will have access to course.</p>
 
-&lt;p&gt;In case you are signed up, but not verified it shows verify please and if you are not signed up, then you need to sign up.&lt;/p&gt;
+<p>In case you are signed up, but not verified it shows verify please and if you are not signed up, then you need to sign up.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js19.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js20.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js19.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js20.PNG" alt="Alt" /></p>
 
-&lt;h2&gt;Switch Statements&lt;/h2&gt;
-&lt;p&gt;Switch statements are another such alternative to if-else statements. In case the conditional statement looks for matching fall of case. The switch statement evaluates an expression, matching the expression’s value to a case clause, and executes statements associated with that case, as well as statements in cases that follow the matching the case.&lt;/p&gt;
+<h2>Switch Statements</h2>
+<p>Switch statements are another such alternative to if-else statements. In case the conditional statement looks for matching fall of case. The switch statement evaluates an expression, matching the expression’s value to a case clause, and executes statements associated with that case, as well as statements in cases that follow the matching the case.</p>
 
-&lt;p&gt;To understand the use of the switch, let’s consider a particular example let’s say we have a website, the website has a different level of access properties for different sections. Let’s say the admin has the complete access, the blog writer has only content access and the viewer can just view the file.&lt;/p&gt;
+<p>To understand the use of the switch, let’s consider a particular example let’s say we have a website, the website has a different level of access properties for different sections. Let’s say the admin has the complete access, the blog writer has only content access and the viewer can just view the file.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js21.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js22.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js21.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js22.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, let’s break the code now as you can see here, we have a variable user storing a string data. Now in case of switch(matching_parameter) conditional statements, we have a parameter which we check matches the required condition or not. So, as soon as we enter switch, we test for different test cases and one which meets the required condition, the block of the statement contained within that case is executed.
+<p>So, let’s break the code now as you can see here, we have a variable user storing a string data. Now in case of switch(matching_parameter) conditional statements, we have a parameter which we check matches the required condition or not. So, as soon as we enter switch, we test for different test cases and one which meets the required condition, the block of the statement contained within that case is executed.
 The break statement forces the program flow to break and stop executing the other code as soon as the line is executed and that block is terminated there itself.
-We could also have&lt;/p&gt;
+We could also have</p>
 
-&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;	default: 
+<pre><code class="language-JavaScript">	default: 
 		//block of statement 
 		break;
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;as the end to execute that particular set of statements if any of the conditions given doesn’t match with the parameter. If the break statement is not placed after every case what happens is that it considers all the falling cases below it as true and hence executes all of them, this is called Fall through.&lt;/p&gt;
+<p>as the end to execute that particular set of statements if any of the conditions given doesn’t match with the parameter. If the break statement is not placed after every case what happens is that it considers all the falling cases below it as true and hence executes all of them, this is called Fall through.</p>
 
-&lt;h2&gt;Coercion and Falsy Values&lt;/h2&gt;
-&lt;p&gt;The Variables have some kind of values associated with them generally, but if there’s nothing into them then also they contain something that just doesn’t make them a liability in the program.
-So, variables that are just declared and are not assigned any value are undefined. Such variables when used as conditions for executing a block of the statement are generally taken to be false.&lt;/p&gt;
+<h2>Coercion and Falsy Values</h2>
+<p>The Variables have some kind of values associated with them generally, but if there’s nothing into them then also they contain something that just doesn’t make them a liability in the program.
+So, variables that are just declared and are not assigned any value are undefined. Such variables when used as conditions for executing a block of the statement are generally taken to be false.</p>
 
-&lt;p&gt;Similarly, we have 0, but 0 in actual makes sense that it’s an integer. In the same manner, we have ‘’ or “as empty strings that convey false when treated as Boolean in conditional statements. But in case of null, that’s pretty much different that even conveys false when treated as Boolean but here the change is that null is given to a variable when it’s expected that a variable always has a value associated to it or it will be undefined if it is being assigned something that doesn’t make any sense that’s null.&lt;/p&gt;
+<p>Similarly, we have 0, but 0 in actual makes sense that it’s an integer. In the same manner, we have ‘’ or “as empty strings that convey false when treated as Boolean in conditional statements. But in case of null, that’s pretty much different that even conveys false when treated as Boolean but here the change is that null is given to a variable when it’s expected that a variable always has a value associated to it or it will be undefined if it is being assigned something that doesn’t make any sense that’s null.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js23.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js24.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js23.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js24.PNG" alt="Alt" /></p>
 
-&lt;p&gt;Now let’s jump out to some crazy stuff, like what happens when we add a string to a number, how to compare the variables along with their datatype and values, and all stuff like that.&lt;/p&gt;
+<p>Now let’s jump out to some crazy stuff, like what happens when we add a string to a number, how to compare the variables along with their datatype and values, and all stuff like that.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js25.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js26.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js25.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js26.PNG" alt="Alt" /></p>
 
-&lt;p&gt;== is only value check or comparison while === is value as well as type check at the same time. Hence that’s why 2==”2” is true but 2===”2” is false.&lt;/p&gt;
+<p>== is only value check or comparison while === is value as well as type check at the same time. Hence that’s why 2==”2” is true but 2===”2” is false.</p>
 
-&lt;p&gt;&lt;b&gt;Authour name:&lt;/b&gt;&lt;i&gt; Aman Kumar Dewangan(AkD)&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Authour’s Country: &lt;/b&gt;&lt;i&gt;India&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Brief Experience History: &lt;/b&gt;&lt;i&gt;My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Blog Content:&lt;/b&gt; &lt;i&gt;The Blog is in Continuation to the previous blog on &lt;a link=&quot;https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html&quot;&gt;“Introduction to JavaScript”&lt;/a&gt;, here we introduce you to the basics of conditional and switching statements.&lt;/i&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Adding Little Complexity to JavaScript</summary></entry><entry><title type="html">Introduction To Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html" rel="alternate" type="text/html" title="Introduction To Javascript" /><published>2020-10-12T00:00:00-05:00</published><updated>2020-10-12T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">&lt;div class=&quot;text-white bg-blue mb-2&quot;&gt;&lt;h1&gt;Introduction to JavaScript&lt;/h1&gt;&lt;/div&gt;
-&lt;p&gt;Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging. We will wrap up all the concepts related to JavaScript in these modules&lt;/p&gt;
+<p><b>Authour name:</b><i> Aman Kumar Dewangan(AkD)</i><br />
+<b>Authour’s Country: </b><i>India</i><br />
+<b>Brief Experience History: </b><i>My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br />
+<b>Blog Content:</b> <i>The Blog is in Continuation to the previous blog on <a link="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">“Introduction to JavaScript”</a>, here we introduce you to the basics of conditional and switching statements.</i></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Adding Little Complexity to JavaScript]]></summary></entry><entry><title type="html">Introduction To Javascript</title><link href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html" rel="alternate" type="text/html" title="Introduction To Javascript" /><published>2020-10-12T00:00:00-05:00</published><updated>2020-10-12T00:00:00-05:00</updated><id>https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript</id><content type="html" xml:base="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html"><![CDATA[<div class="text-white bg-blue mb-2"><h1>Introduction to JavaScript</h1></div>
+<p>Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging. We will wrap up all the concepts related to JavaScript in these modules</p>
 
-&lt;p&gt;JavaScript is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project), the Mozilla Foundation, and the Mozilla Corporation. JavaScript is versatile and beginner-friendly. With more experience, you’ll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more. JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort.&lt;/p&gt;
+<p>JavaScript is a full-fledged dynamic programming language that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project), the Mozilla Foundation, and the Mozilla Corporation. JavaScript is versatile and beginner-friendly. With more experience, you’ll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more. JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort.</p>
 
-&lt;p&gt;JavaScript has developed a lot and hence there’s a need for the guide which is not a band-aid guide over the existing ones but a completely full-furnished fresh guide, that teaches you a lot about JavaScript, directly by writing the code as well as by understanding some of the behind the scene concepts of JavaScript. How it works??, How the Global Execution context works? How ‘this’ keyword works?? How the spread operator and rest operator are different from each other and a lot more topics like that.
-Learning all these Topics about JavaScript is necessary, it’s important but what’s more important is learning with fun, a content that is engaging that you enjoy the whole lot learning process and that’s why we have included projects to give more emphasis on project-based learning. The projects are DOM based so that the process of learning doesn’t seem boring and practice and we learn where to implement JavaScript.&lt;/p&gt;
+<p>JavaScript has developed a lot and hence there’s a need for the guide which is not a band-aid guide over the existing ones but a completely full-furnished fresh guide, that teaches you a lot about JavaScript, directly by writing the code as well as by understanding some of the behind the scene concepts of JavaScript. How it works??, How the Global Execution context works? How ‘this’ keyword works?? How the spread operator and rest operator are different from each other and a lot more topics like that.
+Learning all these Topics about JavaScript is necessary, it’s important but what’s more important is learning with fun, a content that is engaging that you enjoy the whole lot learning process and that’s why we have included projects to give more emphasis on project-based learning. The projects are DOM based so that the process of learning doesn’t seem boring and practice and we learn where to implement JavaScript.</p>
 
-&lt;p&gt;So, we will initially start with installing the tools and writing our very first code. We will do the #classic “Hello World!!” and after that, we will move on understanding about variables, conditionals, and loops, though the guide is not structured in a bookish manner. We have modified the guide structure to make it more fun-learning and we can understand every topic int the easiest manner. So, the guide structure is a bit different and we have included challenges as well to get the best out of it so that you can get to know you have got the concept or not like we have learned it here and I am implementing it here.&lt;/p&gt;
+<p>So, we will initially start with installing the tools and writing our very first code. We will do the #classic “Hello World!!” and after that, we will move on understanding about variables, conditionals, and loops, though the guide is not structured in a bookish manner. We have modified the guide structure to make it more fun-learning and we can understand every topic int the easiest manner. So, the guide structure is a bit different and we have included challenges as well to get the best out of it so that you can get to know you have got the concept or not like we have learned it here and I am implementing it here.</p>
 
-&lt;p&gt;Pre-requisites: Zero (0) Seriously, you can begin with no knowledge. You don’t need to have any prior knowledge of other languages like C, C++, Python, Java, etc anything like that you can directly learn it as a very first Language. (Warning: HTML and CSS are not Programming Languages 😊) And we hope it would be whole lot fun learning JavaScript.
-Just 10 minutes of daily walk through each module, you can be a JavaScript expert. There will be a whole lot of knowledge of insight behind the scenes of JavaScript that you are goanna thoroughly enjoy. One request from our side if you find anyone stuck at any point just guides them here to this guide and if you find it helpful then do share it with your geeky programmers’ community and friends.&lt;/p&gt;
+<p>Pre-requisites: Zero (0) Seriously, you can begin with no knowledge. You don’t need to have any prior knowledge of other languages like C, C++, Python, Java, etc anything like that you can directly learn it as a very first Language. (Warning: HTML and CSS are not Programming Languages 😊) And we hope it would be whole lot fun learning JavaScript.
+Just 10 minutes of daily walk through each module, you can be a JavaScript expert. There will be a whole lot of knowledge of insight behind the scenes of JavaScript that you are goanna thoroughly enjoy. One request from our side if you find anyone stuck at any point just guides them here to this guide and if you find it helpful then do share it with your geeky programmers’ community and friends.</p>
 
-&lt;p&gt;Though we have tried to cover almost everything as a programmer it’s your responsibility as well to keep looking on to the original documentation of these languages over the internet for better knowledge.&lt;/p&gt;
+<p>Though we have tried to cover almost everything as a programmer it’s your responsibility as well to keep looking on to the original documentation of these languages over the internet for better knowledge.</p>
 
-&lt;p&gt;Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript&lt;br /&gt;&lt;/p&gt;
-&lt;h2&gt;Table of Content for Tutorial&lt;/h2&gt;
-&lt;table border=&quot;1&quot;&gt;
-	&lt;tr&gt;&lt;th&gt;S.no.&lt;/th&gt;&lt;th&gt;Topic&lt;/th&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;1.&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html&quot;&gt;Introduction to JavaScript&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;2.&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html&quot;&gt;Conditionals and Switching Elements in JavaScript&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;3.&lt;/td&gt;&lt;td&gt;Functions and Scope Chaining in JavaScript&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;4.&lt;/td&gt;&lt;td&gt;More with Functions, Arrays and Objects in JavaScript&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;5.&lt;/td&gt;&lt;td&gt;Loops in JavaScript&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;6.&lt;/td&gt;&lt;td&gt;DOM Manipulation and Events in JavaScript&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;7.&lt;/td&gt;&lt;td&gt;Getting Started with your first project in JavaScript&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td&gt;8.&lt;/td&gt;&lt;td&gt;Back to the Hell and What's &quot;__proto__??&quot;&lt;/td&gt;&lt;/tr&gt;
-	&lt;tr&gt;&lt;td colspan=&quot; 2 &quot;&gt;Many More..Coming Soon...&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
+<p>Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript<br /></p>
+<h2>Table of Content for Tutorial</h2>
+<table border="1">
+	<tr><th>S.no.</th><th>Topic</th></tr>
+	<tr><td>1.</td><td><a href="https://girlscript-ireland.github.io/blog/2020/10/12/Introduction-to-JavaScript.html">Introduction to JavaScript</a></td></tr>
+	<tr><td>2.</td><td><a href="https://girlscript-ireland.github.io/blog/2020/10/13/Adding-Basic-Complexity-to-JavaScript.html">Conditionals and Switching Elements in JavaScript</a></td></tr>
+	<tr><td>3.</td><td>Functions and Scope Chaining in JavaScript</td></tr>
+	<tr><td>4.</td><td>More with Functions, Arrays and Objects in JavaScript</td></tr>
+	<tr><td>5.</td><td>Loops in JavaScript</td></tr>
+	<tr><td>6.</td><td>DOM Manipulation and Events in JavaScript</td></tr>
+	<tr><td>7.</td><td>Getting Started with your first project in JavaScript</td></tr>
+	<tr><td>8.</td><td>Back to the Hell and What's "__proto__??"</td></tr>
+	<tr><td colspan=" 2 ">Many More..Coming Soon...</td></tr>
+</table>
 
-&lt;h2&gt;What are JavaScript Engines??&lt;/h2&gt;
+<h2>What are JavaScript Engines??</h2>
 
-&lt;p&gt;Actually, before writing code in JavaScript, you need to know where we are gonna write and run our code and probably, you might be excited about that, so hold on for a moment first let’s move through the software needs first.&lt;/p&gt;
+<p>Actually, before writing code in JavaScript, you need to know where we are gonna write and run our code and probably, you might be excited about that, so hold on for a moment first let’s move through the software needs first.</p>
 
-&lt;p&gt;So, for writing the code we will be using VS Code (Visual Studio Code), which is the favorite of most people and gaining a whole lot of popularity. There are a lot of themes and plugins that we can install. Though you can also use codepen.io (Brackets.io – offline version) or sublime for the same purpose no issues.&lt;/p&gt;
+<p>So, for writing the code we will be using VS Code (Visual Studio Code), which is the favorite of most people and gaining a whole lot of popularity. There are a lot of themes and plugins that we can install. Though you can also use codepen.io (Brackets.io – offline version) or sublime for the same purpose no issues.</p>
 
-&lt;p&gt;So, let’s start now:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;So, create a folder probably with name ‘Js’ and within it create another folder name ‘hello’, feel free to name it however you like.&lt;/li&gt;
-  &lt;li&gt;Fire up (Open) the VS (Visual Studio) Code.&lt;/li&gt;
-  &lt;li&gt;Drag and drop the ‘hello’ folder over VS Code if you are still following what’s mentioned.&lt;/li&gt;
-  &lt;li&gt;Now the classic way since the ages that have been continuously followed is creating the 2 files namely:&lt;/li&gt;
-  &lt;li&gt;Within index.html write the following code:&lt;/li&gt;
-&lt;/ol&gt;
+<p>So, let’s start now:</p>
+<ol>
+  <li>So, create a folder probably with name ‘Js’ and within it create another folder name ‘hello’, feel free to name it however you like.</li>
+  <li>Fire up (Open) the VS (Visual Studio) Code.</li>
+  <li>Drag and drop the ‘hello’ folder over VS Code if you are still following what’s mentioned.</li>
+  <li>Now the classic way since the ages that have been continuously followed is creating the 2 files namely:</li>
+  <li>Within index.html write the following code:</li>
+</ol>
 
-&lt;p&gt;(1) index.html (2) script.js&lt;/p&gt;
+<p>(1) index.html (2) script.js</p>
 
-&lt;pre&gt;&lt;code class=&quot;language-HTML&quot;&gt;   &amp;lt;!doctype html&amp;gt;
-   &amp;lt;html lang=’en’&amp;gt;
-   &amp;lt;head&amp;gt;
-	  &amp;lt;meta charset=”UTF-8”&amp;gt;
-	  &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
-   &amp;lt;/head&amp;gt;
-   &amp;lt;body&amp;gt;
+<pre><code class="language-HTML">   &lt;!doctype html&gt;
+   &lt;html lang=’en’&gt;
+   &lt;head&gt;
+	  &lt;meta charset=”UTF-8”&gt;
+	  &lt;title&gt;Document&lt;/title&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
    Some content is to be added here, wait hold on.
-   &amp;lt;/body&amp;gt;
-   &amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-  &lt;li&gt;It’s completely Ok to have the script.js file empty&lt;/li&gt;
-  &lt;li&gt;Now add these two lines in betwwen the opening and closing tags of the body.&lt;/li&gt;
-&lt;/ol&gt;
+   &lt;/body&gt;
+   &lt;/html&gt;
+</code></pre>
+<ol>
+  <li>It’s completely Ok to have the script.js file empty</li>
+  <li>Now add these two lines in betwwen the opening and closing tags of the body.</li>
+</ol>
 
-&lt;pre&gt;&lt;code class=&quot;language-HTML&quot;&gt;   &amp;lt;script src = ”script.js”&amp;gt;&amp;lt;/script&amp;gt;
-   &amp;lt;h1&amp;gt; Hello World&amp;lt;/h1&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-  &lt;li&gt;Go to the file and Open it with Web Browser and you will see Hello World written in big headings over there, but there’s nothing to do with Js as the script.js file is empty.&lt;/li&gt;
-  &lt;li&gt;Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.&lt;/li&gt;
-&lt;/ol&gt;
+<pre><code class="language-HTML">   &lt;script src = ”script.js”&gt;&lt;/script&gt;
+   &lt;h1&gt; Hello World&lt;/h1&gt;
+</code></pre>
+<ol>
+  <li>Go to the file and Open it with Web Browser and you will see Hello World written in big headings over there, but there’s nothing to do with Js as the script.js file is empty.</li>
+  <li>Now right click on the browser screen of page, a drop-down menu select ‘Inspect’/’Inspect element’ and go to console option than.</li>
+</ol>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js1.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js1.PNG" alt="Alt" /></p>
 
-&lt;ol&gt;
-  &lt;li&gt;Now once you are done with this part, go to script.js over VS Code.&lt;/li&gt;
-  &lt;li&gt;In the script.js in VS Code write the following line as shown and save it:&lt;/li&gt;
-&lt;/ol&gt;
+<ol>
+  <li>Now once you are done with this part, go to script.js over VS Code.</li>
+  <li>In the script.js in VS Code write the following line as shown and save it:</li>
+</ol>
 
-&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;console.log(&quot;Hello JavaScript&quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-  &lt;li&gt;As soon as you save it and reload the page by clicking on the reload button, over the console we see “Hello JavaScript” written over there. This is the proof we can load up our JavaScript in the HTML file.&lt;/li&gt;
-  &lt;li&gt;This brings us to a very important question,” Is it the right way to run the JavaScript Code??”&lt;/li&gt;
-&lt;/ol&gt;
+<pre><code class="language-JavaScript">console.log("Hello JavaScript");
+</code></pre>
+<ol>
+  <li>As soon as you save it and reload the page by clicking on the reload button, over the console we see “Hello JavaScript” written over there. This is the proof we can load up our JavaScript in the HTML file.</li>
+  <li>This brings us to a very important question,” Is it the right way to run the JavaScript Code??”</li>
+</ol>
 
-&lt;p&gt;Yeah! It’s fine, all clear 100% there’s no problem with it. But this is not the only way to run the JavaScript and we need to know why this is all happening and how can I run the same code in a bit advanced manner??&lt;/p&gt;
+<p>Yeah! It’s fine, all clear 100% there’s no problem with it. But this is not the only way to run the JavaScript and we need to know why this is all happening and how can I run the same code in a bit advanced manner??</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js2.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js2.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So First of all, we need to understand JavaScript is just like other languages like C++, Java, or Python. It needs a certain thing, tool or set of software so that this JavaScript language can be converted into Machine-Level Language and that’s the most foundation of running the JavaScript and since the very history long we have always seen that the JavaScript comes with a compiler that converts JS code into executable code. Nobody bothers that there’s a compiler running our code. The fact is this engine was already having compilers and people think that they can be run only over browsers. Some of the JavaScript Engines namely are ‘V8’ and ‘Spider Monkey’.&lt;/p&gt;
+<p>So First of all, we need to understand JavaScript is just like other languages like C++, Java, or Python. It needs a certain thing, tool or set of software so that this JavaScript language can be converted into Machine-Level Language and that’s the most foundation of running the JavaScript and since the very history long we have always seen that the JavaScript comes with a compiler that converts JS code into executable code. Nobody bothers that there’s a compiler running our code. The fact is this engine was already having compilers and people think that they can be run only over browsers. Some of the JavaScript Engines namely are ‘V8’ and ‘Spider Monkey’.</p>
 
-&lt;p&gt;V8 is Google’s Open Source High-Performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and Node.js among others. It implements ECMAScript and WebAssembly and runs on Windows 7 or later, macOS 10.12+, and Linux system that uses x64, IA-32, ARM, or MIPS processors. V8 can run standalone or can be embedded into any C++ application.&lt;/p&gt;
+<p>V8 is Google’s Open Source High-Performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and Node.js among others. It implements ECMAScript and WebAssembly and runs on Windows 7 or later, macOS 10.12+, and Linux system that uses x64, IA-32, ARM, or MIPS processors. V8 can run standalone or can be embedded into any C++ application.</p>
 
-&lt;p&gt;Spider Monkey is Mozilla’s JavaScript engine written in C and C++. It is used in various Mozilla Products, including Firefox, and is available under the MPL2.&lt;/p&gt;
+<p>Spider Monkey is Mozilla’s JavaScript engine written in C and C++. It is used in various Mozilla Products, including Firefox, and is available under the MPL2.</p>
 
-&lt;p&gt;There is no shortage for such JS engines, just like C++ for which we have no. of compilers out there. Things like Node.js are one such implementation that converts your standalone JavaScript code so that we always don’t have to attach our JavaScript to HTML and hit a reload every time. That’s painful that’s why we are not doing it.&lt;/p&gt;
+<p>There is no shortage for such JS engines, just like C++ for which we have no. of compilers out there. Things like Node.js are one such implementation that converts your standalone JavaScript code so that we always don’t have to attach our JavaScript to HTML and hit a reload every time. That’s painful that’s why we are not doing it.</p>
 
-&lt;h2&gt;DOM (Document Object Model)&lt;/h2&gt;
+<h2>DOM (Document Object Model)</h2>
 
-&lt;p&gt;Now let’s have a bit of knowledge about the DOM Structure of Web Document. JavaScript in addition to getting data from the browser also allows you to manipulate DOM that browsers use to create Web pages.&lt;/p&gt;
+<p>Now let’s have a bit of knowledge about the DOM Structure of Web Document. JavaScript in addition to getting data from the browser also allows you to manipulate DOM that browsers use to create Web pages.</p>
 
-&lt;p&gt;Every Webpage can be broken down into a mathematical tree structure called the Document Object Model (DOM). Each HTML tag is a node in the tree and these nodes have all types of different attributes such as text, background color, width, etc.&lt;/p&gt;
+<p>Every Webpage can be broken down into a mathematical tree structure called the Document Object Model (DOM). Each HTML tag is a node in the tree and these nodes have all types of different attributes such as text, background color, width, etc.</p>
 
-&lt;p&gt;Nodes have properties, methods, and events. Methods here means functions and events refer to various happenings like hover over a link, clicking a button, etc. The Page content of the website is represented by DOM. (Scripting Language) JavaScript uses DOM to interact with the document. Accessing the DOM is done with an API (Application Programming Interface). API is browser-independent.&lt;/p&gt;
+<p>Nodes have properties, methods, and events. Methods here means functions and events refer to various happenings like hover over a link, clicking a button, etc. The Page content of the website is represented by DOM. (Scripting Language) JavaScript uses DOM to interact with the document. Accessing the DOM is done with an API (Application Programming Interface). API is browser-independent.</p>
 
-&lt;p&gt;•	Document - It is the root of the page&lt;br /&gt;
-•	Element - A node in the tree&lt;br /&gt;
-•	nodelist - An array or group of elements&lt;br /&gt;
-•	attribute - A node in DOM though rarely used that way. It provides another way to manipulate or change the document.&lt;br /&gt;&lt;/p&gt;
+<p>•	Document - It is the root of the page<br />
+•	Element - A node in the tree<br />
+•	nodelist - An array or group of elements<br />
+•	attribute - A node in DOM though rarely used that way. It provides another way to manipulate or change the document.<br /></p>
 
-&lt;p&gt;Before closing on this topic and moving to the next module let’s talk about Interactivity and how JavaScript does that in our Website. So, HTML5 and CSS3 are not interactive. JavaScript can read and write HTML elements, react/respond to events, validate data, detect visitors, and create cookies.&lt;/p&gt;
+<p>Before closing on this topic and moving to the next module let’s talk about Interactivity and how JavaScript does that in our Website. So, HTML5 and CSS3 are not interactive. JavaScript can read and write HTML elements, react/respond to events, validate data, detect visitors, and create cookies.</p>
 
-&lt;h2&gt;ES Version of JavaScript that’s fit&lt;/h2&gt;
-&lt;p&gt;Like other Languages, JavaScript has a whole of versions of JavaScript, so this question is pretty often okay to arise which one we must use. Some just came into the picture, some offered drastic changes, some offered slight changes, so which one we should be bothered about.&lt;/p&gt;
+<h2>ES Version of JavaScript that’s fit</h2>
+<p>Like other Languages, JavaScript has a whole of versions of JavaScript, so this question is pretty often okay to arise which one we must use. Some just came into the picture, some offered drastic changes, some offered slight changes, so which one we should be bothered about.</p>
 
-&lt;p&gt;Before moving further let’s have a look at something that almost everyone knows about JavaScript. As mentioned in the previous article, JavaScript has a great power of DOM Manipulation.&lt;/p&gt;
+<p>Before moving further let’s have a look at something that almost everyone knows about JavaScript. As mentioned in the previous article, JavaScript has a great power of DOM Manipulation.</p>
 
-&lt;p&gt;So, as you can see here through this diagram it’s clear how 
-the web documents are associated with each other.&lt;/p&gt;
+<p>So, as you can see here through this diagram it’s clear how 
+the web documents are associated with each other.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/HTML_CSS_JS.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/HTML_CSS_JS.PNG" alt="Alt" /></p>
 
-&lt;h3&gt;ECMAScript&lt;/h3&gt;
-&lt;p&gt;In the earlier days, there were a lot of scripting languages that were coming up and by scripting languages, we are not referring to bash-trial or Pearl. In this entire scripting world, languages like ActionScript, JavaScript, Jscript, Gscript, and a whole bunch of other languages keep on coming and they were competing with each other. For all the browsers it was getting hard to support all of them, so the European Union (European Computer Manufacturing Association) came into the picture, and then ECMAscript came into the picture. They tried to unify things as one so that things can be done and brought together efficiently, they brought out a set of rules, instructions, and guidelines and this gave rise to ECMAscript. JavaScript is one of the languages which follows the ECMAscript guidelines. The major change came into the picture from ES5 and ES6 onwards. ES6 came into the year 2015 and ES8 in 2018. You might be thinking of working with ES10 or probably even the latest ones. It’s not a great idea to directly jump to ES10 because they are all majorly backward compatible, but the latest browsers supporting there features not possible. So, we will be going through the basic/general version of JavaScript which is even before ES6 and then we will move forward into the features which are available in ES7, ES10.&lt;/p&gt;
+<h3>ECMAScript</h3>
+<p>In the earlier days, there were a lot of scripting languages that were coming up and by scripting languages, we are not referring to bash-trial or Pearl. In this entire scripting world, languages like ActionScript, JavaScript, Jscript, Gscript, and a whole bunch of other languages keep on coming and they were competing with each other. For all the browsers it was getting hard to support all of them, so the European Union (European Computer Manufacturing Association) came into the picture, and then ECMAscript came into the picture. They tried to unify things as one so that things can be done and brought together efficiently, they brought out a set of rules, instructions, and guidelines and this gave rise to ECMAscript. JavaScript is one of the languages which follows the ECMAscript guidelines. The major change came into the picture from ES5 and ES6 onwards. ES6 came into the year 2015 and ES8 in 2018. You might be thinking of working with ES10 or probably even the latest ones. It’s not a great idea to directly jump to ES10 because they are all majorly backward compatible, but the latest browsers supporting there features not possible. So, we will be going through the basic/general version of JavaScript which is even before ES6 and then we will move forward into the features which are available in ES7, ES10.</p>
 
-&lt;h3&gt;Variables and Datatypes in JavaScript&lt;/h3&gt;
-&lt;p&gt;Let’s just say we want to build an application for your college so for this I would need to reserve some space in the memory. So, let’s say we want to store the roll number of a single student only for now, so I have to allocate some memory for storing the student’s roll number and I will give a unique name to that memory allocated for storing data, this is what we call variable. Variables are named memory allocations used for storing data. A Variable has a memory address and some value associated with it. A variable name can consist of letters, digits, underscores, and ($) sign which is pretty unique in case of JavaScript compared to other languages. Variables cannot start with a digit. JavaScript is a case-sensitive language i.e. ‘roll’ and ‘Roll’ are treated differently. Variable Names should be meaningful.&lt;/p&gt;
+<h3>Variables and Datatypes in JavaScript</h3>
+<p>Let’s just say we want to build an application for your college so for this I would need to reserve some space in the memory. So, let’s say we want to store the roll number of a single student only for now, so I have to allocate some memory for storing the student’s roll number and I will give a unique name to that memory allocated for storing data, this is what we call variable. Variables are named memory allocations used for storing data. A Variable has a memory address and some value associated with it. A variable name can consist of letters, digits, underscores, and ($) sign which is pretty unique in case of JavaScript compared to other languages. Variables cannot start with a digit. JavaScript is a case-sensitive language i.e. ‘roll’ and ‘Roll’ are treated differently. Variable Names should be meaningful.</p>
 
-&lt;p&gt;So, for this purpose we have 3 keywords basically that we will be seeing several times: ‘var’, ’let’, and ‘const’. ‘var’ keyword is used to declare a variable. In JavaScript, we don’t have separate variable type declarations.&lt;/p&gt;
+<p>So, for this purpose we have 3 keywords basically that we will be seeing several times: ‘var’, ’let’, and ‘const’. ‘var’ keyword is used to declare a variable. In JavaScript, we don’t have separate variable type declarations.</p>
 
-&lt;p&gt;Thus, if you are someone who has worked on some other programming language, note for you guys that in Js there is no such difference in technique of variable declaration for decimal, integer, boolean, and string. For most of the cases, we have discussed and pretty much sure you might have understood the concept. So, as in the case, there are many data types in JavaScript and for that, you need to explore the internet knowing about all of them. During the discussion about Variable’s there’s an assignment so if you did it than superb and you might be surprised to see “undefined” rather than getting an error or something like that, it’s like a NULL value telling that till now the memory is allocated to the variable but no value has been assigned to the variable.&lt;/p&gt;
+<p>Thus, if you are someone who has worked on some other programming language, note for you guys that in Js there is no such difference in technique of variable declaration for decimal, integer, boolean, and string. For most of the cases, we have discussed and pretty much sure you might have understood the concept. So, as in the case, there are many data types in JavaScript and for that, you need to explore the internet knowing about all of them. During the discussion about Variable’s there’s an assignment so if you did it than superb and you might be surprised to see “undefined” rather than getting an error or something like that, it’s like a NULL value telling that till now the memory is allocated to the variable but no value has been assigned to the variable.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js4.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js5.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js4.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js5.PNG" alt="Alt" /></p>
 
-&lt;p&gt;Code:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-Javascript&quot;&gt;var name = &quot;Aman&quot;; //We can store string in here
+<p>Code:</p>
+<pre><code class="language-Javascript">var name = "Aman"; //We can store string in here
 console.log(name); //Prints the name
 var number = 5; //store integer type
 var decimal = 5.5;
 var bool = true;
 console.long(bool);
-&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
 
-&lt;p&gt;As far we have discussed variable declaration using ‘var’ slowly through implementation we will try to cover up ‘let’ and ‘const’ as well. So, first, let’s discuss ‘const’ keyword. ‘const’ is also used to declare variables but it locks the value in that particular memory address.&lt;/p&gt;
+<p>As far we have discussed variable declaration using ‘var’ slowly through implementation we will try to cover up ‘let’ and ‘const’ as well. So, first, let’s discuss ‘const’ keyword. ‘const’ is also used to declare variables but it locks the value in that particular memory address.</p>
 
-&lt;pre&gt;&lt;code class=&quot;language-Javascript&quot;&gt;const uid = “abc123”; // Nowhere in this case the value of uid can never be changed even if we desire to do 
-&lt;/code&gt;&lt;/pre&gt;
+<pre><code class="language-Javascript">const uid = “abc123”; // Nowhere in this case the value of uid can never be changed even if we desire to do 
+</code></pre>
 
-&lt;p&gt;i.e. it says ok uid is the variable name with some space assigned in memory, you can use it for processing but you can’t change the value in uid.&lt;/p&gt;
+<p>i.e. it says ok uid is the variable name with some space assigned in memory, you can use it for processing but you can’t change the value in uid.</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js6.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js7.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js6.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js7.PNG" alt="Alt" /></p>
 
-&lt;p&gt;So, in the above example we are trying to show you how we can write data into the console, and the use of ‘var’. ‘const’ is pretty much similar to ‘var’ the only difference is its value cannot be changed throughout the program.&lt;/p&gt;
+<p>So, in the above example we are trying to show you how we can write data into the console, and the use of ‘var’. ‘const’ is pretty much similar to ‘var’ the only difference is its value cannot be changed throughout the program.</p>
 
-&lt;p&gt;Another alternative technique for printing the same is as follows:&lt;/p&gt;
+<p>Another alternative technique for printing the same is as follows:</p>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js8.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js9.PNG&quot; alt=&quot;Alt&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js8.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js9.PNG" alt="Alt" /></p>
 
-&lt;p&gt;This makes writing over the console task a whole lot easier.&lt;/p&gt;
+<p>This makes writing over the console task a whole lot easier.</p>
 
-&lt;h2&gt;Operators&lt;/h2&gt;
+<h2>Operators</h2>
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Operators are tokens that trigger some computation when applied to objects and variables in an expression. Operators are none other than the basic mathematical operations that we perform on numbers example +, -, *, /, %, (AND)&amp;amp;&amp;amp;, (OR)&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;, (Bitwise AND)&amp;amp;, (Bitwise OR)&lt;/td&gt;
-      &lt;td&gt;, &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=, (equal)==, (assignment)=, (Bitwise OR assignment)&lt;/td&gt;
-      &lt;td&gt;=, (Bitwise XOR)^, ++a or a++(increment), –a or a–(decrement), **(exponentiation) etc. You can study them all from documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <tbody>
+    <tr>
+      <td>Operators are tokens that trigger some computation when applied to objects and variables in an expression. Operators are none other than the basic mathematical operations that we perform on numbers example +, -, *, /, %, (AND)&amp;&amp;, (OR)</td>
+      <td> </td>
+      <td>, (Bitwise AND)&amp;, (Bitwise OR)</td>
+      <td>, &gt;, &lt;, &gt;=, &lt;=, (equal)==, (assignment)=, (Bitwise OR assignment)</td>
+      <td>=, (Bitwise XOR)^, ++a or a++(increment), –a or a–(decrement), **(exponentiation) etc. You can study them all from documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js10.PNG&quot; alt=&quot;Alt&quot; /&gt;
-&lt;img src=&quot;/blog/assets/Js_Tutorial_Images/js11.PNG&quot; /&gt;&lt;/p&gt;
+<p><img src="/blog/assets/Js_Tutorial_Images/js10.PNG" alt="Alt" />
+<img src="/blog/assets/Js_Tutorial_Images/js11.PNG" /></p>
 
-&lt;p&gt;&lt;b&gt;Authour name:&lt;/b&gt;&lt;i&gt; Aman Kumar Dewangan(AkD)&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Authour’s Country: &lt;/b&gt;&lt;i&gt;India&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Brief Experience History: &lt;/b&gt;&lt;i&gt;My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.&lt;/i&gt;&lt;br /&gt;
-&lt;b&gt;Blog Content:&lt;/b&gt; &lt;i&gt;The Blog is for those who are beginners into Web Development and have already learnt HTML and CSS and wish to learn Javascript in order to make there website more responsive.&lt;/i&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction to JavaScript Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging. We will wrap up all the concepts related to JavaScript in these modules</summary></entry></feed>
+<p><b>Authour name:</b><i> Aman Kumar Dewangan(AkD)</i><br />
+<b>Authour’s Country: </b><i>India</i><br />
+<b>Brief Experience History: </b><i>My name is Aman Kumar Dewangan, currently pursuing B.Tech in Electrical Engineering at National Institute of Technology Raipur. I am a proficient IoT Developer, Electronics Enthusiast, worked with no. of Micro-controllers including Arduino and Raspberry Pi. I am a Frontend Developer and beginner into Cloud Engineering as well. I have recently started working on Open-Source and generally program in C++. I have participated in many Hackathons as well.</i><br />
+<b>Blog Content:</b> <i>The Blog is for those who are beginners into Web Development and have already learnt HTML and CSS and wish to learn Javascript in order to make there website more responsive.</i></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Introduction to JavaScript Welcome to Complete JavaScript Guide, A that starts from basic like DOM Structure, declaring variables, learning about functions, declarations, classes most modern things like promises async JavaScript, spread operators, and most importantly DOM manipulation and building projects with it. Throughout the course, we will try turning out the toughest topics in the easiest possible way, so that programming becomes fun and engaging. We will wrap up all the concepts related to JavaScript in these modules]]></summary></entry></feed>
